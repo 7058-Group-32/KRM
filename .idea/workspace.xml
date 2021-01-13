@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/application.phtml" afterDir="false" />
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="renamed application.phtml to form.phtml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610537176558</updated>
       <workItem from="1610537177606" duration="3513000" />
-      <workItem from="1610555589166" duration="378000" />
+      <workItem from="1610555589166" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -91,7 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1610555808149</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created application.phtml">
+      <created>1610556025246</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556025246</updated>
+    </task>
+    <task id="LOCAL-00005" summary="renamed application.phtml to form.phtml">
+      <created>1610556078125</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556078125</updated>
+    </task>
+    <task id="LOCAL-00006" summary="renamed application.phtml to form.phtml">
+      <created>1610556137140</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556137140</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +132,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Write test" />
     <MESSAGE value="Moved view information from controlled to view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved view information from controlled to view" />
+    <MESSAGE value="Created application.phtml" />
+    <MESSAGE value="renamed application.phtml to form.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed application.phtml to form.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -139,13 +161,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1461" height="302" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1610540760952" />
+    <state x="144" y="79" key="MergeDialog" timestamp="1610556232130">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="144" y="79" key="MergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556232130" />
+    <state x="392" y="243" key="MultipleFileMergeDialog" timestamp="1610556237078">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556237078" />
     <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610555924988">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610555924988" />
-    <state x="2644" y="269" key="Vcs.Push.Dialog.v2" timestamp="1610538173454">
-      <screen x="2256" y="0" width="1592" height="1072" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610556267818">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610538173453" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610556267818" />
   </component>
 </project>
