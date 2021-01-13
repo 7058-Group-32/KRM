@@ -19,19 +19,28 @@ if(isset($_POST['register']))
 
     $address = $address1 . ', ' . $address2 . ', ' . $postcode;
 
-    $password = null;
-    $encryptedPass = null;
-    if ($password1 = $password2)
-    {
-        $password = $password1;
-        $encryptedPass= password_hash($password,PASSWORD_DEFAULT);
-    }
+    //$password = null;
+    //$encryptedPass = null;
+    //if ($password1 = $password2)
+    //{
+        //$password = $password1;
+        $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
+    //}
 
-    if($password != null)
-    {
+    //else{
+
+    //}
+
+    //if($password != null)
+    //{
         $userData->register($name, $email, $number, $address, $encryptedPass);
         $_SESSION["registered"] = true;
-    }
+    //}
+
+    //else
+    //{
+
+    //}
 
 
 }

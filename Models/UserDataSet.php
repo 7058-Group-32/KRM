@@ -14,14 +14,14 @@ class UserDataSet
 
     public function addUser($name, $email, $number, $address)
     {
-        $sqlQuery = "INSERT INTO Users(Name, Email, Password, Phone Number, Address) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "')";
+        $sqlQuery = "INSERT INTO Users(Name, Email, Phone Number, Address) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "')";
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
     }
 
     public function register($name, $email, $number, $address, $password)
     {
-        $sqlQuery = "INSERT INTO Users(Name, Email, Password, Phone Number, Address, Password) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "','" . $password . "')";
+        $sqlQuery = "INSERT INTO Users(Name, Email, Phone Number, Address, Password) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "','" . $password . "')";
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
     }
