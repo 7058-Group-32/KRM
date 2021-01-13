@@ -19,11 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Moved footer information into footer.phtml">
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ApplicationDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ApplicationDataSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +44,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MVCtemplate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AuctionsWebsite" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610537176558</updated>
       <workItem from="1610537177606" duration="3513000" />
-      <workItem from="1610555589166" duration="2186000" />
+      <workItem from="1610555589166" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -160,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610557735834</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Improved navbar">
+      <created>1610557815196</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610557815197</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Added necessary classes to 'Models' section">
+      <created>1610558159383</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1610558159383</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,25 +203,28 @@
     <MESSAGE value="Created temp navbar to navigate website" />
     <MESSAGE value="Improved MVC layout and navigation" />
     <MESSAGE value="Moved footer information into footer.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved footer information into footer.phtml" />
+    <MESSAGE value="Improved navbar" />
+    <MESSAGE value="Added necessary classes to 'Models' section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added necessary classes to 'Models' section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
       <screen x="2256" y="0" width="1592" height="1072" />
     </state>
     <state x="2759" y="198" key="#PHP/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610539683938" />
-    <state x="2506" y="191" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610539686065">
-      <screen x="2256" y="0" width="1592" height="1072" />
+    <state x="236" y="172" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610558615791">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2506" y="191" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610539686065" />
+    <state x="236" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1610558615791" />
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610556338813">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556338813" />
-    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1610556582133">
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1610557860533">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610556582133" />
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610557860533" />
     <state width="1461" height="302" key="GridCell.Tab.0.bottom" timestamp="1610556339256">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -222,6 +241,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1461" height="302" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1610556339256" />
+    <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state width="198" height="457" key="HiddenNamespacesPopup/0.0.1504.963@0.0.1504.963" timestamp="1610558620388" />
     <state x="144" y="79" key="MergeDialog" timestamp="1610556232130">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -230,15 +253,15 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556237078" />
-    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610556425488">
+    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610558120138">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556425488" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610557522645">
+    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610558120138" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610558170194">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610538173453" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610557522645" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610558170194" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
