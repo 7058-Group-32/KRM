@@ -5,7 +5,7 @@
     <div class="container w-container">
       <nav role="navigation" class="w-nav-menu">
           <a href="index.php" class="nav-link nav-button w-nav-link">Home</a>
-        <a href="login.phtml" class="nav-link nav-button w-nav-link">Log In</a>
+        <a href="login.php" class="nav-link nav-button w-nav-link">Log In</a>
       </nav>
       <div class="w-nav-button">
         <div class="w-icon-nav-menu"></div>
@@ -21,9 +21,12 @@
           <h1 class="heading">Register</h1>
           <div class="form-block login w-form">
             <form id="email-form" name="email-form" data-name="Email Form" class="form">
-              <div class="logindiv"><input type="email" class="text-field login-texfield w-input" maxlength="256" name="email" data-name="Email" placeholder="Email" id="email" required=""><input type="password" class="text-field login-texfield w-input" maxlength="256" name="password" data-name="Password" placeholder="Password" id="password" required=""><input type="password" class="text-field login-texfield w-input" maxlength="256" name="confirm-password" data-name="confirm password" placeholder="Confirm Password" id="confirm-password" required=""></div><input type="submit" value="Register" data-wait="Please wait..." class="submit-button ghost-btn w-button">
+              <div class="logindiv">
+                  <input type="email" class="text-field login-texfield w-input" maxlength="256" name="email" data-name="Email" placeholder="Email" id="email" required="">
+                  <input type="password" class="text-field login-texfield w-input" maxlength="256" name="password" data-name="Password" placeholder="Password" id="password" required="">
+                  <input type="password" class="text-field login-texfield w-input" maxlength="256" name="confirm-password" data-name="confirm password" placeholder="Confirm Password" id="confirm-password" required=""></div><input type="submit" value="Register" data-wait="Please wait..." class="submit-button ghost-btn w-button">
               <div class="register-text-div"><label class="field-label-2">Already have an account?</label>
-                <a href="login.phtml" class="register-link-text">Log In</a>
+                <a href="login.php" class="register-link-text">Log In</a>
               </div>
             </form>
             <div class="w-form-done">
