@@ -31,8 +31,9 @@
 }
 
 #footer {
+    padding-top: 40px;
     margin_top: 20px;
     text-align: center;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }

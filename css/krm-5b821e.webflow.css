@@ -74,6 +74,17 @@
   margin-top: 71px;
 }
 
+.headingr {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  font-family: Roboto, sans-serif;
+  color: #023a78;
+  font-size: 28px;
+  font-weight: 900;
+}
+
 .heading {
   margin-top: 0px;
   margin-bottom: 65px;
