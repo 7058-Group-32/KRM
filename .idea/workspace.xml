@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved MVC layout and navigation">
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Moved footer information into footer.phtml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/template/footer.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/footer.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610537176558</updated>
       <workItem from="1610537177606" duration="3513000" />
-      <workItem from="1610555589166" duration="2094000" />
+      <workItem from="1610555589166" duration="2186000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -155,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610557515786</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Moved footer information into footer.phtml">
+      <created>1610557735834</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610557735834</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +186,8 @@
     <MESSAGE value="Organised MVC layout of code" />
     <MESSAGE value="Created temp navbar to navigate website" />
     <MESSAGE value="Improved MVC layout and navigation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved MVC layout and navigation" />
+    <MESSAGE value="Moved footer information into footer.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moved footer information into footer.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
