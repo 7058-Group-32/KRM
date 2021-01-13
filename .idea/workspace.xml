@@ -70,7 +70,7 @@
       <updated>1610537176558</updated>
       <workItem from="1610537177606" duration="3513000" />
       <workItem from="1610555589166" duration="7337000" />
-      <workItem from="1610576231250" duration="1573000" />
+      <workItem from="1610576231250" duration="2435000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610576870739</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="In progress of creating registration form: Working on Controller">
+      <created>1610577847818</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1610577847818</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,8 @@
     <MESSAGE value="Added some text to form.phtml" />
     <MESSAGE value="In progress of creating registration" />
     <MESSAGE value="In progress of creating registration form" />
-    <option name="LAST_COMMIT_MESSAGE" value="In progress of creating registration form" />
+    <MESSAGE value="In progress of creating registration form: Working on Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress of creating registration form: Working on Controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -318,11 +326,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610558120138" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610576878813">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610577867351">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610538173453" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610576878813" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610577867351" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

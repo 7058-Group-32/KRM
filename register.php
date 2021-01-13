@@ -27,8 +27,6 @@ if(isset($_POST['register']))
         $encryptedPass= password_hash($password,PASSWORD_DEFAULT);
     }
 
-    $_SESSION["registered"] = false;
-
     if($password != null)
     {
         $userData->register($name, $email, $number, $address, $encryptedPass);
