@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610537176558</updated>
       <workItem from="1610537177606" duration="3513000" />
-      <workItem from="1610555589166" duration="4803000" />
+      <workItem from="1610555589166" duration="5132000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -191,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610559149169</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="In progress of creating registration">
+      <created>1610560723985</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610560723985</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +227,8 @@
     <MESSAGE value="Added necessary classes to 'Models' section" />
     <MESSAGE value="Added basic structure to classes" />
     <MESSAGE value="Added some text to form.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some text to form.phtml" />
+    <MESSAGE value="In progress of creating registration" />
+    <option name="LAST_COMMIT_MESSAGE" value="In progress of creating registration" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -274,11 +280,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610558120138" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610559156535">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610560732128">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610538173453" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610559156535" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610560732128" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
