@@ -1,6 +1,16 @@
 <?php require('template/header.phtml') ?>
 
-<h1>This is the index page</h1>
-
+<div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
+    <div class="container w-container">
+        <a href="#" class="brand w-nav-brand"><img src="images/krm..svg" loading="lazy" alt="" class="image"></a>
+        <nav role="navigation" class="w-nav-menu">
+            <a href="login.php" class="nav-link nav-button w-nav-link">Log In</a>
+            <a href="form.php" class="nav-link nav-button w-nav-link">New application</a>
+        </nav>
+        <div class="w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+        </div>
+    </div>
+</div>
 
 <?php require('template/footer.phtml') ?>
