@@ -3,7 +3,7 @@
 $view = new stdClass();
 $view->pageTitle = 'Homepage';
 require_once('Views/index.phtml');
-
+?>
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Wed Jan 13 2021 11:12:18 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5ffdee642c911889f748a86c" data-wf-site="5ffdee642c9118659a48a86b">
