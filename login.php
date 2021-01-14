@@ -7,7 +7,7 @@ $view->pageTitle = 'Login';
 $userData= new UserDataSet();
 session_start();
 
-$view->loggedin = "not logged in";
+$view->loggedin = "";
 
 if (isset($_POST["login"])) {
     $userPass = htmlentities($_POST['password']);
@@ -24,6 +24,7 @@ if (isset($_POST["login"])) {
 
     else
     {
+        $view->loggedin = "Oops! Email or password is incorrect!";
         //echo "not logged in";
     }
 }
@@ -32,7 +33,7 @@ if (isset($_POST["logout"])) {
     // logout button was pressed - end the session
     unset($_SESSION["loggedin"]);
     session_destroy();
-    $view->loggedin = "not logged in";
+
 }
 
 

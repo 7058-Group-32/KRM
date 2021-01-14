@@ -5,7 +5,7 @@
 
     <h3>This is the Login page (to be edited by Matthew and Saaniya)</h3>
 
-<body class="login-body">
+<!--<body class="login-body">
   <div class="form-container">
     <div class="section login-section">
       <div class="login-divblock">
@@ -36,7 +36,67 @@
         </div>
       </div>
     </div>
-  </div>
-</body>
+  </div>-->
+
+<?php
+
+if(isset($_SESSION["loggedin"]))
+    {
+        echo '
+<div class="form-container" >
+        <div class="section login-section" >
+            <div class="login-divblock" >
+                <div class="left-divblock" ></div >
+                <div class="right-divblock" >
+                <h1 class="heading" > Welcome! Your have successfully logged in </h1 >
+                    <div class="form-block login w-form" >
+                                            <form id = "email-form" name = "email-form" data - name = "Email Form" class="form" >
+                                            <input type="submit" name="logout" value="Logout" data-wait="Please wait..." class="submit-button ghost-btn w-button">
+
+                            </form>
+
+                        </div >
+                </div >
+            </div >
+        </div >
+    </div >';
+
+    }
+
+else {
+    echo '
+    <body class="login-body" >
+
+    <div class="form-container" >
+        <div class="section login-section" >
+            <div class="login-divblock" >
+                <div class="left-divblock" ></div >
+                <div class="right-divblock" >
+                    <h1 class="heading" > Log In </h1 >
+                    <div class="form-block login w-form" >
+                        <form id = "email-form" name = "email-form" data - name = "Email Form" class="form" >
+                            <div class="logindiv" >
+                                <input type = "email" class="text-field login-texfield email-textfield w-input" maxlength = "256" name = "email" placeholder = "Email" id = "email-3" required = "" >
+                                <input type = "password" class="text-field login-texfield w-input" maxlength = "256" name = "password" placeholder = "Password" id = "password" required = "" >
+                                <a href = "#" class="link-2" > Forgot Password ?</a >
+                            </div >
+                            <input type = "submit" name = "login" value = "Log In" data - wait = "Please wait..." class="submit-button ghost-btn w-button" >
+                            <div class="register-text-div" >
+                                <label class="field-label-2" > Doesn &#x27;t Have Account? </label>
+                                <a href = "register.php" class="register-link-text" > Register</a >
+                            </div >
+                            <div>
+                                <div class="text-block">'.$view->loggedin.'</div>
+                            </div>
+                        </form >
+                        
+                    </div >
+                </div >
+            </div >
+        </div >
+    </div >';
+    }
+
+    ?>
 
 <?php require('template/footer.phtml') ?>
