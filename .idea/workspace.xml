@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved navbar">
+      <change afterPath="$PROJECT_DIR$/images/katie-harp-HMsksv_c9PU-unsplash-1-p-1080.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/katie-harp-HMsksv_c9PU-unsplash-1-p-1600.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/katie-harp-HMsksv_c9PU-unsplash-1-p-2000.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/katie-harp-HMsksv_c9PU-unsplash-1-p-2600.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/katie-harp-HMsksv_c9PU-unsplash-1-p-3200.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/katie-harp-HMsksv_c9PU-unsplash-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/krm..svg" beforeDir="false" afterPath="$PROJECT_DIR$/images/krm..svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/webflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/webflow.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +63,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Matt\PhpstormProjects\KRM-2\js" />
+      <recent name="C:\Users\Matt\PhpstormProjects\KRM-2\images" />
+      <recent name="C:\Users\Matt\PhpstormProjects\KRM-2\css" />
       <recent name="C:\Users\Matt\PhpstormProjects\KRM-2\Views" />
     </key>
   </component>
@@ -72,7 +86,7 @@
       <workItem from="1610555589166" duration="7337000" />
       <workItem from="1610576231250" duration="7542000" />
       <workItem from="1610628361972" duration="3260000" />
-      <workItem from="1610655636799" duration="330000" />
+      <workItem from="1610655636799" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -312,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610635387209</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Implementing new html and php by Seyedmahdi">
+      <created>1610656130702</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1610656130702</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +370,8 @@
     <MESSAGE value="Login and registration form" />
     <MESSAGE value="Edits to form.phtml" />
     <MESSAGE value="added notes.txt in images folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="added notes.txt in images folder" />
+    <MESSAGE value="Implementing new html and php by Seyedmahdi" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing new html and php by Seyedmahdi" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -401,11 +423,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610581620573" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610635392768">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610656186457">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610634047032" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610635392768" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610656186457" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
