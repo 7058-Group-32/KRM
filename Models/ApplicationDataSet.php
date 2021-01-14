@@ -22,7 +22,7 @@ class ApplicationDataSet
     }
     
     //Retrieves all of the applications from a given user
-         public function getApplication($userID)
+    public function getApplication($userID)
     {
         $sqlQuery = "SELECT * FROM Application WHERE UserID = $userID";
         $statement = $this->_dbHandle->prepare($sqlQuery);
