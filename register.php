@@ -6,7 +6,7 @@ $view->pageTitle = 'Homepage';
 session_start();
 $userData = new UserDataSet();
 
-$view->register="not registered";
+$view->register="";
 
 if(isset($_POST['register']))
 {
@@ -28,12 +28,12 @@ if(isset($_POST['register']))
         $password = $password1;
         $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
         $userData->register($name, $email, $number, $address, $encryptedPass);
-        $view->register = "registration success";
+
         $_SESSION["registered"] = true;
     }
 
     else{
-        $view->register = "passwords do not match";
+        $view->register = "Oops! Your passwords do not match!";
     }
 
 

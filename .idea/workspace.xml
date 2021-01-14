@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login page is now completed">
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved navigation bar so when user is logged in, it will say 'logout'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1610555589166" duration="7337000" />
       <workItem from="1610576231250" duration="7542000" />
       <workItem from="1610628361972" duration="3260000" />
-      <workItem from="1610655636799" duration="4981000" />
+      <workItem from="1610655636799" duration="6558000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -376,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610660234748</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Improved navigation bar so when user is logged in, it will say 'logout'">
+      <created>1610660749370</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1610660749370</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +425,8 @@
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Added history page (yet to be constructed)" />
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Adding new code to form.phtml" />
     <MESSAGE value="Login page is now completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login page is now completed" />
+    <MESSAGE value="Improved navigation bar so when user is logged in, it will say 'logout'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved navigation bar so when user is logged in, it will say 'logout'" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -471,11 +478,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610660239812">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610660933546">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610634047032" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610660239812" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610660933546" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

@@ -2,7 +2,7 @@
 
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
-<body class="body-3">
+<!--<body class="body-3">
   <div class="form-container">
     <div class="section login-section">
       <div class="login-divblock">
@@ -56,6 +56,72 @@
       </div>
     </div>
   </div>
-</body>
+</body>-->
+
+<?php
+
+if(isset($_SESSION["registered"]))
+{
+    echo '
+    <div class="form-container" >
+        <div class="section login-section" >
+            <div class="login-divblock" >
+                <div class="left-divblock" ></div >
+                <div class="right-divblock" >
+                <h1 class="heading" > Welcome! Your have successfully registered </h1 >
+                    <div class="form-block login w-form" >
+                          <div class="hero-section-left-block">
+                            
+                            <a href="login.php" class="button w-button">Sign In Now</a>
+                          </div>                  
+
+                        </div >
+                </div >
+            </div >
+        </div >
+    </div >';
+
+}
+
+else {
+
+    echo '
+
+    <div class="form-container">
+        <div class="section login-section">
+            <div class="login-divblock">
+                <div class="left-divblock"></div>
+                <div class="right-divblock">
+                    <h1 class="heading">Register</h1>
+                    <div class="form-block login w-form">
+                        <form id="email-form" name="email-form" data-name="Email Form" class="form">
+                            <div class="logindiv">
+                                <input type="text" class="text-field login-texfield w-input"  name="name" placeholder="Full Name" required="">
+                                <input type="email" class="text-field login-texfield w-input" maxlength="256" name="email" placeholder="Email" id="email" required="">
+                                <input type="tel" class="text-field login-texfield w-input" maxlength="256" name="number" placeholder="Phone Number" id="phone-number" required="">
+                                <input type="text" class="text-field login-texfield w-input" maxlength="256" name="address1"  placeholder="Address Line 1" id="address-2" required="">
+                                <input type="text" class="text-field login-texfield w-input" maxlength="256" name="address2"  placeholder="Address Line 2" id="address-3" required="">
+                                <input type="text" class="text-field login-texfield w-input" maxlength="256" name="postcode"  placeholder="Post/Zipcode" id="postcode" required="">
+                                <input type="password" class="text-field login-texfield w-input" maxlength="256" name="password1" placeholder="Password" id="password" required="">
+                                <input type="password" class="text-field login-texfield w-input" maxlength="256" name="password2"  placeholder="Confirm Password" id="confirm-password" required="">
+                            </div>
+                                <input type="submit" name="register" value="Register" data-wait="Please wait..." class="submit-button ghost-btn w-button">
+                            <div class="register-text-div">
+                                <label class="field-label-2">Already have an account?</label>
+                                <a href="login.php" class="register-link-text">Log In</a>
+                            </div>
+                            <div class="error-message">
+                                <div class="text-block">'.$view->register.'</div>
+                            </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>';
+}
+
+    ?>
 
 <?php require('template/footer.phtml') ?>
