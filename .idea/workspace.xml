@@ -19,11 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Implementing new css and html by SeyedMahdi">
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Implementing new css and html by SeyedMahdi. Index page and navbar implemented.">
+      <change afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1n0q63P2O9ErP99Vsw7S1Ud5yZw" />
@@ -76,7 +78,7 @@
       <workItem from="1610555589166" duration="7337000" />
       <workItem from="1610576231250" duration="7542000" />
       <workItem from="1610628361972" duration="3260000" />
-      <workItem from="1610655636799" duration="1234000" />
+      <workItem from="1610655636799" duration="1458000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -330,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610656681997</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Implementing new css and html by SeyedMahdi. Index page and navbar implemented.">
+      <created>1610656942021</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1610656942021</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +378,8 @@
     <MESSAGE value="added notes.txt in images folder" />
     <MESSAGE value="Implementing new html and php by Seyedmahdi" />
     <MESSAGE value="Implementing new css and html by SeyedMahdi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing new css and html by SeyedMahdi" />
+    <MESSAGE value="Implementing new css and html by SeyedMahdi. Index page and navbar implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing new css and html by SeyedMahdi. Index page and navbar implemented." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -389,22 +399,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610581664823" />
-    <state width="1461" height="302" key="GridCell.Tab.0.bottom" timestamp="1610656814622">
+    <state width="1461" height="302" key="GridCell.Tab.0.bottom" timestamp="1610656897713">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1610656814622" />
-    <state width="1461" height="302" key="GridCell.Tab.0.center" timestamp="1610656814622">
+    <state width="1461" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1610656897713" />
+    <state width="1461" height="302" key="GridCell.Tab.0.center" timestamp="1610656897713">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="302" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1610656814622" />
-    <state width="1461" height="302" key="GridCell.Tab.0.left" timestamp="1610656814622">
+    <state width="1461" height="302" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1610656897713" />
+    <state width="1461" height="302" key="GridCell.Tab.0.left" timestamp="1610656897712">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="302" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1610656814622" />
-    <state width="1461" height="302" key="GridCell.Tab.0.right" timestamp="1610656814622">
+    <state width="1461" height="302" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1610656897712" />
+    <state width="1461" height="302" key="GridCell.Tab.0.right" timestamp="1610656897713">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="1461" height="302" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1610656814622" />
+    <state width="1461" height="302" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1610656897713" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -417,15 +427,15 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556237078" />
-    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610581620573">
+    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610657055273">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610581620573" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610656699434">
+    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610656948973">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610634047032" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610656699434" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610656948973" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
