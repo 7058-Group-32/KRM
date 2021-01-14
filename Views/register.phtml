@@ -1,5 +1,7 @@
 <?php require('template/header.phtml') ?>
 
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+
 <body class="body-3">
   <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
     <div class="container w-container">
@@ -20,7 +22,7 @@
         <div class="right-divblock">
           <h1 class="headingr">Register</h1>
           <div class="form-block login w-form">
-            <form id="email-form" name="email-form" method="post" action="register.php" class="form">
+            <form id="email-form" name="email-form" method="post" class="form">
 
                   <input type="text" class="text-field login-texfield w-input"  name="name" placeholder="Full Name" required="">
                   <input type="email" class="text-field login-texfield w-input"  name="email" data-name="Email" placeholder="Email" id="email" required="">
@@ -67,6 +69,5 @@
     </div>
   </div>
 </body>
-</html>
 
 <?php require('template/footer.phtml') ?>

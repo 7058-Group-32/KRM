@@ -1,5 +1,8 @@
 <?php require('template/header.phtml') ?>
 
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <br>
+
     <h3>This is the Login page (to be edited by Matthew and Saaniya)</h3>
 
 <body class="login-body">
@@ -22,7 +25,7 @@
         <div class="right-divblock">
           <h1 class="heading">Log In</h1>
           <div class="form-block login w-form">
-            <form id="email-form" name="email-form" method="post" action="login.php" class="form">
+            <form id="email-form" name="email-form" method="post" class="form">
               <div class="logindiv">
                   <input type="email" class="text-field login-texfield email-textfield w-input" maxlength="256" name="email" placeholder="Email" id="email-3" >
                   <input type="password" class="text-field login-texfield w-input" maxlength="256" name="password" placeholder="Password" id="password" >
@@ -47,6 +50,5 @@
     </div>
   </div>
 </body>
-</html>
 
 <?php require('template/footer.phtml') ?>
