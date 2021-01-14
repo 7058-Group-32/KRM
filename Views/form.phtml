@@ -1,20 +1,12 @@
 <?php require('template/header.phtml') ?>
 
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+    <br>
+
 <h3>This is the Application form page (to be edited by Christabel, Lucas and Arslan)</h3>
 <h4>To add a user who hasn't signed in, you can use my 'add user' method is the UserDataSet class</h4>
 <body class="body">
-<div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar w-nav">
-    <div class="container w-container">
-        <a href="index.php" class="brand w-nav-brand"><img src="images/krm..svg" loading="lazy" alt="" class="image"></a>
-        <nav role="navigation" class="w-nav-menu">
-            <a href="index.php" class="nav-link nav-button w-nav-link">Home</a>
-            <a href="login.php" class="nav-link nav-button w-nav-link">Log In</a>
-        </nav>
-        <div class="w-nav-button">
-            <div class="w-icon-nav-menu"></div>
-        </div>
-    </div>
-</div>
+
 <div class="form-container">
     <div class="section">
         <h1 class="heading">Project Application</h1>
@@ -33,6 +25,6 @@
 </div>
 
 </body>
-</html>
+
 
 <?php require('template/footer.phtml') ?>
