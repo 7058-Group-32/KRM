@@ -1,8 +1,10 @@
 <?php
 $view = new stdClass();
 $view->pageTitle = 'Application';
-require_once('Views/form.phtml');
+
 require_once('Models/ApplicationDataSet.php');
+
+session_start();
 
 //note could be reworked to make the site faster
 if(!isset($_POST['project-name'])){$_POST['project-name'] = '';}
@@ -50,3 +52,5 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name']
 }else{
     echo 'Not all fields are complete';
 }
+
+require_once('Views/form.phtml');

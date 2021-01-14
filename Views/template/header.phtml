@@ -31,11 +31,19 @@
     <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
     <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="images/webclip.png" rel="apple-touch-icon">
-
-    <title>Server-Side Programming - <?php echo $view->pageTitle; ?></title>
 </head>
 
 <body role=""document">
+
+<?php
+$login = "Log In";
+
+if(isset($_SESSION["loggedin"]))
+{
+    $login = "Log Out";
+}
+
+?>
 
 <div class="container">
     <div data-collapse="small" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
@@ -44,7 +52,7 @@
             <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="form.php" class="nav-link-3 w-nav-link">New Application</a>
                 <a href="history.php" class="nav-link-3 w-nav-link">History</a>
-                <a href="login.php" class="nav-link-2 nav-link w-nav-link">Log In</a>
+                <a href="login.php" class="nav-link-2 nav-link w-nav-link"><?php echo $login; ?></a>
             </nav>
             <div class="menu-button w-nav-button">
                 <div class="icon w-icon-nav-menu"></div>
