@@ -34,7 +34,6 @@ if(isset($_POST['register']))
 
     else{
         $view->register = "passwords do not match";
-
     }
 
 
