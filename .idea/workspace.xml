@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved navbar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
       <workItem from="1610537177606" duration="3513000" />
       <workItem from="1610555589166" duration="7337000" />
       <workItem from="1610576231250" duration="7542000" />
-      <workItem from="1610628361972" duration="954000" />
+      <workItem from="1610628361972" duration="2217000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -276,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610629225110</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Login and registration form">
+      <created>1610629445475</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1610629445476</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,11 +369,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610581620573" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610629231440">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610629605351">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610538173453" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610629231440" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610629605351" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
