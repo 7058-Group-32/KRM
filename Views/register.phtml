@@ -22,17 +22,17 @@
           <div class="form-block login w-form">
             <form id="email-form" name="email-form" method="post" action="reg.php" class="form">
 
-                  <input type="text" class="text-field login-texfield w-input"  name="name" placeholder="Full Name" >
-                  <input type="email" class="text-field login-texfield w-input"  name="email" data-name="Email" placeholder="Email" id="email" >
-                  <input type="number" class="text-field login-texfield w-input" name="number" placeholder="Phone Number" >
-                  <input type="text" class="text-field login-texfield w-input"  name="address1" placeholder="Address Line 1" >
-                  <input type="text" class="text-field login-texfield w-input"  name="address2" placeholder="Address Line 2" >
-                  <input type="text" class="text-field login-texfield w-input" name="postcode" placeholder="Post/Zip Code" >
-                  <input type="password" class="text-field login-texfield w-input"  name="password1" placeholder="Password" >
-                  <input type="password" class="text-field login-texfield w-input"  name="password2" placeholder="Confirm Password" id="confirm-password" >
+                  <input type="text" class="text-field login-texfield w-input"  name="name" placeholder="Full Name" required="">
+                  <input type="email" class="text-field login-texfield w-input"  name="email" data-name="Email" placeholder="Email" id="email" required="">
+                  <input type="number" class="text-field login-texfield w-input" name="number" placeholder="Phone Number" required="">
+                  <input type="text" class="text-field login-texfield w-input"  name="address1" placeholder="Address Line 1" required="">
+                  <input type="text" class="text-field login-texfield w-input"  name="address2" placeholder="Address Line 2" required="">
+                  <input type="text" class="text-field login-texfield w-input" name="postcode" placeholder="Post/Zip Code" required="">
+                  <input type="password" class="text-field login-texfield w-input"  name="password1" placeholder="Password" required="">
+                  <input type="password" class="text-field login-texfield w-input"  name="password2" placeholder="Confirm Password" id="confirm-password" required="">
 
                 <input type="submit" name="register" value="Register" class="submit-button ghost-btn w-button">
-                <input type="submit" name="submit" value="submit">
+
               <div class="register-text-div">
                   <label class="field-label-2">Already have an account?</label>
                 <a href="login.php" class="register-link-text">Log In</a>

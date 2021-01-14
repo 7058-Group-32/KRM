@@ -7,7 +7,7 @@ $view->pageTitle = 'Register';
 session_start();
 $userData = new UserDataSet();
 
-if(isset($_POST['submit']))
+if(isset($_POST['register']))
 {
     $name = htmlentities($_POST['name']);
     $email = htmlentities($_POST['email']);
@@ -22,26 +22,21 @@ if(isset($_POST['submit']))
 
     $password = null;
     $encryptedPass = null;
-    if ($password1 = $password2)
+    if ($password1 == $password2)
     {
-    $password = $password1;
-    $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
+        $password = $password1;
+        $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
+        $userData->register($name, $email, $number, $address, $encryptedPass);
+        $_SESSION["registered"] = true;
     }
 
     else{
 
     }
 
-    if($password != null)
-    {
-    $userData->register($name, $email, $number, $address, $password);
-    $_SESSION["registered"] = true;
-    }
 
-    else
-    {
 
-    }
+
 
 
 }
