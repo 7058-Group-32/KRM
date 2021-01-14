@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Improved navbar">
+      <change afterPath="$PROJECT_DIR$/Views/reg.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reg.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +73,7 @@
       <updated>1610537176558</updated>
       <workItem from="1610537177606" duration="3513000" />
       <workItem from="1610555589166" duration="7337000" />
-      <workItem from="1610576231250" duration="3957000" />
+      <workItem from="1610576231250" duration="6338000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610578756817</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="In progress of creating registration form">
+      <created>1610580249351</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1610580249351</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,10 +307,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556338813" />
-    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1610579432899">
+    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1610581664823">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610579432899" />
+    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610581664823" />
     <state width="1461" height="302" key="GridCell.Tab.0.bottom" timestamp="1610556339256">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -331,15 +339,15 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556237078" />
-    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610558120138">
+    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1610581620573">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610558120138" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610578763489">
+    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610581620573" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610580255114">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610538173453" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610578763489" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610580255114" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

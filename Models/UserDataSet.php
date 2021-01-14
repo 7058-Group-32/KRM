@@ -21,7 +21,7 @@ class UserDataSet
 
     public function register($name, $email, $number, $address, $password)
     {
-        $sqlQuery = "INSERT INTO Users(Name, Email, Phone Number, Address, Password) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "','" . $password . "')";
+        $sqlQuery = "INSERT INTO Users(Name, Email, Phone, Address, Password) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "','" . $password . "')";
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
     }

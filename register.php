@@ -6,7 +6,7 @@ $view->pageTitle = 'Homepage';
 session_start();
 $userData = new UserDataSet();
 
-if(isset($_POST['register']))
+if(isset($_POST['submit']))
 {
     $name = htmlentities($_POST['name']);
     $email = htmlentities($_POST['email']);
@@ -17,7 +17,7 @@ if(isset($_POST['register']))
     $password1 = htmlentities($_POST['password1']);
     $password2 = htmlentities($_POST['password2']);
 
-    $address = $address1 . ', ' . $address2 . ', ' . $postcode;
+    //$address = $address1 . ', ' . $address2 . ', ' . $postcode;
 
     //$password = null;
     //$encryptedPass = null;
@@ -33,7 +33,7 @@ if(isset($_POST['register']))
 
     //if($password != null)
     //{
-        $userData->register($name, $email, $number, $address, $encryptedPass);
+        $userData->register($name, $email, $number, $address1, $password1);
         $_SESSION["registered"] = true;
     //}
 
