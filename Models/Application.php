@@ -20,7 +20,7 @@ class Application
     }
     
     public function getApplicationID(){
-        return $this->_AppID;
+        return $this->_appID;
     }
     public function getProjectName(){
         return $this->_projectName;
