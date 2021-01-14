@@ -45,7 +45,7 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name']
     
     //min and max have been given the placeholder value of budgetRange
     //no way to get userID currently
-    addApplication($projectName, $customerName, $shortDescription, $budgetRange, $budgetRange, $deadline, $otherReq, $userID);
+    //addApplication($projectName, $customerName, $shortDescription, $budgetRange, $budgetRange, $deadline, $otherReq, $userID);
 
 }else{
     echo 'Not all fields are complete';
