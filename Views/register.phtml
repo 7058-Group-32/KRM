@@ -20,7 +20,7 @@
         <div class="right-divblock">
           <h1 class="headingr">Register</h1>
           <div class="form-block login w-form">
-            <form id="email-form" name="email-form" method="post" action="reg.php" class="form">
+            <form id="email-form" name="email-form" method="post" action="register.php" class="form">
 
                   <input type="text" class="text-field login-texfield w-input"  name="name" placeholder="Full Name" required="">
                   <input type="email" class="text-field login-texfield w-input"  name="email" data-name="Email" placeholder="Email" id="email" required="">
@@ -39,14 +39,25 @@
               </div>
             </form>
 
-                 <!--     <div class="w-form-done">
+              <?php
+
+              if(isset($_SESSION["registered"]))
+              {
+                  echo'
+    <div class="w-form-done">
                         <div>Thank you! You have successfully registered!</div>
-                      </div>
+                      </div>';
+              }
 
-
-                  <div class="w-form-fail">
+              else
+              {
+                  echo'
+    <div class="w-form-fail">
                     <div>Oops! Something went wrong while submitting the form.</div>
-                  </div>-->
+                  </div>';
+              }
+
+              ?>
 
           </div>
         </div>

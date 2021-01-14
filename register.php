@@ -6,7 +6,9 @@ $view->pageTitle = 'Homepage';
 session_start();
 $userData = new UserDataSet();
 
-if(isset($_POST['submit']))
+$view->register="not registered";
+
+if(isset($_POST['register']))
 {
     $name = htmlentities($_POST['name']);
     $email = htmlentities($_POST['email']);
@@ -17,30 +19,27 @@ if(isset($_POST['submit']))
     $password1 = htmlentities($_POST['password1']);
     $password2 = htmlentities($_POST['password2']);
 
-    //$address = $address1 . ', ' . $address2 . ', ' . $postcode;
+    $address = $address1 . ', ' . $address2 . ', ' . $postcode;
 
-    //$password = null;
-    //$encryptedPass = null;
-    //if ($password1 = $password2)
-    //{
-        //$password = $password1;
+    $password = null;
+    $encryptedPass = null;
+    if ($password1 == $password2)
+    {
+        $password = $password1;
         $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
-    //}
-
-    //else{
-
-    //}
-
-    //if($password != null)
-    //{
-        $userData->register($name, $email, $number, $address1, $password1);
+        $userData->register($name, $email, $number, $address, $encryptedPass);
+        $view->register = "registration success";
         $_SESSION["registered"] = true;
-    //}
+    }
 
-    //else
-    //{
+    else{
+        $view->register = "passwords do not match";
 
-    //}
+    }
+
+
+
+
 
 
 }

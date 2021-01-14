@@ -1,9 +1,13 @@
 <?php
+require_once('Models/UserDataSet.php');
 $view = new stdClass();
 $view->pageTitle = 'Login';
 
+
 $userData= new UserDataSet();
 session_start();
+
+$view->loggedin = "not logged in";
 
 if (isset($_POST["login"])) {
     $userPass = htmlentities($_POST['password']);
@@ -24,7 +28,7 @@ if (isset($_POST["login"])) {
     }
 }
 
-if (isset($_POST["logoutButton"])) {
+if (isset($_POST["logout"])) {
     // logout button was pressed - end the session
     unset($_SESSION["loggedin"]);
     session_destroy();
