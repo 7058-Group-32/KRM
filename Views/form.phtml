@@ -5,26 +5,36 @@
 
 <h3>This is the Application form page (to be edited by Christabel, Lucas and Arslan)</h3>
 <h4>To add a user who hasn't signed in, you can use my 'add user' method is the UserDataSet class</h4>
-<body class="body">
+    <body class="body">
 
-<div class="form-container">
-    <div class="section">
-        <h1 class="heading">Project Application</h1>
-        <p class="paragraph">Please fill up the form with required information.</p>
-        <div class="form-block w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" class="form" action = "form.php" method = "POST">
-                <input type="text" class="text-field w-input" maxlength="256" name="project-name" data-name="project name" placeholder="Project Name" id="project-name" required=""><input type="text" class="text-field w-input" maxlength="256" name="customer-name" data-name="customer name" placeholder="Customer Name" id="customer-name" required=""><input type="text" class="text-field w-input" maxlength="256" name="short-description" data-name="short description" placeholder="Short Description" id="short-description" required=""><input type="text" class="text-field w-input" maxlength="256" name="budget-range" data-name="budget range" placeholder="Budge Range" id="budget-range" required=""><input type="text" class="text-field w-input" maxlength="256" name="deadline" data-name="deadline" placeholder="Deadline" id="deadline" required=""><input type="email" class="text-field w-input" maxlength="256" name="email" data-name="email" placeholder="Email" id="email" required=""><input type="text" class="text-field w-input" maxlength="256" name="other-requirement" data-name="other requirement" placeholder="Other Requirement" id="other-requirement"><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button form-submit-btn w-button"></form>
-            <div class="w-form-done">
-                <div>Thank you! Your submission has been received!</div>
-            </div>
-            <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the form.</div>
+
+    <div class="form-container">
+        <div class="section">
+            <h1 class="heading">Project Application</h1>
+            <p class="paragraph">Please fill up the form with required information.</p>
+            <div class="form-block w-form">
+                <form id="email-form" name="email-form" data-name="Email Form" method="post" class="form">
+                    <input type="text" class="text-field w-input" maxlength="256" name="project-name" data-name="project name" placeholder="Project Name" id="project-name" required="">
+                    <input type="text" class="text-field w-input" maxlength="256" name="customer-name" data-name="customer name" placeholder="Customer Name" id="customer-name" required="">
+                    <input type="text" class="text-field w-input" maxlength="256" name="short-description" data-name="short description" placeholder="Short Description" id="short-description" required="">
+                    <div class="budget-field">
+                        <input type="text" class="text-field left-budget-field w-input" maxlength="256" name="min-budget-ranget" data-name="min budget ranget" placeholder="Minimum Budget" id="min-budget-ranget" required="">
+                        <input type="text" class="text-field w-input" maxlength="256" name="max-Budget-Ranget" data-name="max Budget Ranget" placeholder="Maximum Budget" id="max-Budget-Ranget" required=""></div>
+                    <input type="text" class="text-field w-input" maxlength="256" name="deadline" data-name="deadline" placeholder="Deadline" id="deadline" required="">
+                    <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="email" placeholder="Email" id="email" required="">
+                    <input type="text" class="text-field w-input" maxlength="256" name="other-requirement" data-name="other requirement" placeholder="Other Requirement" id="other-requirement">
+                    <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button form-submit-btn w-button">
+                </form>
+                <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                </div>
+                <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-</body>
 
 
 <?php require('template/footer.phtml') ?>
