@@ -3,8 +3,18 @@ $view = new stdClass();
 $view->pageTitle = 'Application';
 
 require_once('Models/ApplicationDataSet.php');
+require_once('Models/UserDataSet.php');
 
 session_start();
+
+$userDataSet = new UserDataSet();
+$view->userDataSet = $userDataSet->fetchUser(3);
+$e = $_SESSION["e"];
+echo $e;
+
+
+
+
 
 //note could be reworked to make the site faster
 if(!isset($_POST['project-name'])){$_POST['project-name'] = '';}
@@ -16,14 +26,35 @@ if(!isset($_POST['max-budget-range'])){$_POST['max-budget-range'] = '';}
 if(!isset($_POST['short-description'])){$_POST['short-description'] = '';}
 if(!isset($_POST['other-requirement'])){$_POST['other-requirement'] = '';}
 
+//initialise address & number
+
 $projectName = $_POST['project-name'];
-$customerName = $_POST['customer-name'];
+
 $deadline = $_POST['deadline'];
-$email = $_POST['email'];
+
 $shortDescription = $_POST['short-description'];
 $otherReq = $_POST['other-requirement'];
 $minBudgetRange = $_POST['min-budget-range'];
 $maxBudgetRange = $_POST['max-budget-range'];
+
+if(isset($_SESSION["loggedin"]))
+{
+    $id = $_SESSION["userid"];
+    $view->userDataSet = $userDataSet->fetchUser($id);
+}
+
+else {
+    $customerName = $_POST['customer-name'];
+    $email = $_POST['email'];
+    $number = htmlentities($_POST['number']);
+    $address1 = htmlentities($_POST['address1']);
+    $address2 = htmlentities($_POST['address2']);
+    $postcode = htmlentities($_POST['postcode']);
+}
+
+
+
+
 
 //if all of the information has been set, then you can send the mail
 if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name'] || $_POST['deadline'] || $_POST['email'] || $_POST['min-budget-range'] || $_POST['max-budget-range'] || $_POST['short-description'])

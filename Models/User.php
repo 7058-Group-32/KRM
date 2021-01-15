@@ -1,34 +1,24 @@
 <?php
 class User
 {
-    protected $_userEmail, $_loggedin, $_userID;
+    protected $_email, $_phone, $_address;
 
-    public function __construct()
+    public function __construct($dbRow)
     {
-        session_start();
-        $this->_userEmail="No user";
-        $this->_loggedin=false;
-        $this->_userID=0;
-
-        if (isset($_SESSION["login"]))
-        {
-            $this->_userEmail=$_SESSION["login"];
-            $this->_userID=$_SESSION["uid"];
-            $this->_loggedin=true;
-        }
+        $this->_email=$dbRow[0];
+        $this->_phone=$dbRow[1];
+        $this->_address=$dbRow[2];
     }
 
-    public function initialise()
-    {
-        $this->_userEmail="No user";
-        $this->_loggedin=false;
-        $this->_userID=0;
+    public function getEmail() {
+        return $this->_email;
+    }
 
-        if (isset($_SESSION["login"]))
-        {
-            $this->_username=$_SESSION["login"];
-            $this->_userID=$_SESSION["uid"];
-            $this->_loggedin=true;
-        }
+    public function getPhone() {
+        return $this->_phone;
+    }
+
+    public function getAddress() {
+        return $this->_address;
     }
 }

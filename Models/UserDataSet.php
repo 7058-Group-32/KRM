@@ -1,6 +1,7 @@
 <?php
 require_once ('Models/Database.php');
 require_once ('Models/User.php');
+session_start();
 class UserDataSet
 {
 
@@ -14,7 +15,7 @@ class UserDataSet
 
     public function addUser($name, $email, $number, $address)
     {
-        $sqlQuery = "INSERT INTO Users(Name, Email, Phone Number, Address) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "')";
+        $sqlQuery = "INSERT INTO Users(Name, Email, Phone, Address) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "')";
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
     }
@@ -79,5 +80,21 @@ class UserDataSet
             }
         }
         return $found;
+    }
+
+    public function fetchUser($userID)
+    {
+        $sqlQuery = 'SELECT Email, Phone, Address FROM Users WHERE UserID = '.$userID;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+
+        $row=$statement->fetch();
+
+        $_SESSION["em"] = $row[0];
+        $_SESSION["add"] = $row[1];
+        $_SESSION["pho"] = $row[2];
+
+        return $row;
+
     }
 }

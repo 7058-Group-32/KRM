@@ -21,8 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
       <workItem from="1610576231250" duration="7542000" />
       <workItem from="1610628361972" duration="3260000" />
       <workItem from="1610655636799" duration="6635000" />
-      <workItem from="1610710798770" duration="1765000" />
+      <workItem from="1610710798770" duration="4778000" />
     </task>
     <task id="LOCAL-00001" summary="Write test">
       <created>1610537313274</created>
@@ -396,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610711829267</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="In process of adding a feature that makes sure email has not already been used to register in the past">
+      <created>1610712606028</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1610712606028</updated>
+    </task>
+    <task id="LOCAL-00047" summary="editing form.phtml">
+      <created>1610712767004</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1610712767004</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -415,8 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created application.phtml" />
-    <MESSAGE value="renamed application.phtml to form.phtml" />
     <MESSAGE value="Organised MVC layout of code" />
     <MESSAGE value="Created temp navbar to navigate website" />
     <MESSAGE value="Improved MVC layout and navigation" />
@@ -440,7 +455,9 @@
     <MESSAGE value="Improved navigation bar so when user is logged in, it will say 'logout'" />
     <MESSAGE value="Login and logout page complete!" />
     <MESSAGE value="Added feature that makes sure email has not already been used to register in the past" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added feature that makes sure email has not already been used to register in the past" />
+    <MESSAGE value="In process of adding a feature that makes sure email has not already been used to register in the past" />
+    <MESSAGE value="editing form.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing form.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -492,14 +509,15 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610711836499">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610712771006">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610634047032" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610711836499" />
-    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1610557325140">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610712771006" />
+    <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup" timestamp="1610714925323">
+      <screen x="2256" y="0" width="1592" height="1072" />
     </state>
+    <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610714925323" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1610557325140" />
   </component>
 </project>

@@ -20,6 +20,8 @@ if (isset($_POST["login"])) {
     {
         $_SESSION["loggedin"] = true;
         echo 'logged in';
+        $_SESSION["userid"] = $userData->fetchId($userEmail);
+
         //$_SESSION["email"] = $userEmail;
         //echo "logged in";
     }
@@ -34,6 +36,7 @@ if (isset($_POST["login"])) {
 if (isset($_POST["logout"])) {
     // logout button was pressed - end the session
     unset($_SESSION["loggedin"]);
+    unset($_SESSION["userid"]);
     session_destroy();
 
 }
