@@ -5,12 +5,12 @@ $view->pageTitle = 'Application';
 require_once('Models/ApplicationDataSet.php');
 require_once('Models/UserDataSet.php');
 
-session_start();
+//session_start();
 
 $userDataSet = new UserDataSet();
 $view->userDataSet = $userDataSet->fetchUser(3);
-$e = $_SESSION["e"];
-echo $e;
+//$e = $_SESSION["e"];
+//echo $e;
 
 
 
@@ -46,6 +46,10 @@ if(isset($_SESSION["loggedin"]))
 {
     $id = $_SESSION["userid"];
     $view->userDataSet = $userDataSet->fetchUser($id);
+    //$customerName =
+    $email = $_SESSION["em"];
+    $address = $_SESSION["add"];
+    $number = $_SESSION["pho"];
 }
 
 else {
@@ -56,8 +60,6 @@ else {
     $address2 = htmlentities($_POST['address2']);
     $postcode = htmlentities($_POST['postcode']);
 }
-
-
 
 
 
