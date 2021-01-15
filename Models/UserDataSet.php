@@ -40,4 +40,44 @@ class UserDataSet
         }
 
     }
+
+    public function fetchId($email)
+    {
+        $sqlQuery = "SELECT UserID FROM Users WHERE Email='".$email."'";
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+        $row=$statement->fetch();
+
+        if ($row != null)
+        {
+            return $row[0];
+        }
+
+        else
+        {
+            return null;
+        }
+    }
+
+    public function uniqueEmailCheck($email)
+    {
+        $sqlQuery = "SELECT Email FROM Users";
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+        $row=$statement->fetch();
+        $count = 0;
+        $found = false;
+        while($count< count($row) && !$found) {
+
+            if ($row[$count] = $email)
+            {
+                $found = true;
+            }
+
+            else{
+                $count = $count +1;
+            }
+        }
+        return $found;
+    }
 }
