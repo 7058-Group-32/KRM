@@ -29,27 +29,6 @@
               </div>
             </form>
 
-              <?php
-
-              echo $view->register;
-
-              if(isset($_SESSION["registered"]))
-              {
-                  echo'
-    <div class="w-form-done">
-                        <div>Thank you! You have successfully registered!</div>
-                      </div>';
-              }
-
-              else
-              {
-                  echo'
-    <div class="w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form.</div>
-                  </div>';
-              }
-
-              ?>
 
           </div>
         </div>
