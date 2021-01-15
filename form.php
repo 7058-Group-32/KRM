@@ -46,7 +46,7 @@ if(isset($_SESSION["loggedin"]))
 {
     $id = $_SESSION["userid"];
     $view->userDataSet = $userDataSet->fetchUser($id);
-    $customerName = $userDataSet->getCustomerName($id);
+    $customerName =  $_SESSION["na"];
     $email = $_SESSION["em"];
     $address = $_SESSION["add"];
     $number = $_SESSION["pho"];
