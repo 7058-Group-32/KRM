@@ -28,4 +28,19 @@ class ApplicationDataSet
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
     }
+
+    public function fetchUserApplications($userId)
+    {
+        $sqlQuery = 'SELECT * FROM Application WHERE UserID=' . $userId;
+
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+
+        $dataSet = [];
+        while ($row = $statement->fetch()) {
+            $app = new Application($row);
+            $dataSet[] = $app;
+        }
+        return $dataSet;
+    }
 }
