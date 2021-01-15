@@ -90,7 +90,7 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name']
     //addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $userID);
 
 }else{
-    echo 'Not all fields are complete';
+    //echo 'Not all fields are complete';
 }
 
 require_once('Views/form.phtml');
