@@ -5,18 +5,18 @@ $view->pageTitle = 'Application';
 require_once('Models/ApplicationDataSet.php');
 require_once('Models/UserDataSet.php');
 
-session_start();
+//session_start();
 
 $userDataSet = new UserDataSet();
 $view->userDataSet = $userDataSet->fetchUser(3);
-$e = $_SESSION["e"];
-echo $e;
+//$e = $_SESSION["e"];
+//echo $e;
 
 
 
 
 
-//note could be reworked to make the site faster
+//Initialises all of the post variables
 if(!isset($_POST['project-name'])){$_POST['project-name'] = '';}
 if(!isset($_POST['customer-name'])){$_POST['customer-name'] = '';}
 if(!isset($_POST['deadline'])){$_POST['deadline'] = '';}
@@ -27,6 +27,11 @@ if(!isset($_POST['short-description'])){$_POST['short-description'] = '';}
 if(!isset($_POST['other-requirement'])){$_POST['other-requirement'] = '';}
 
 //initialise address & number
+if(!isset($_POST['number'])){$_POST['number'] = '';}
+if(!isset($_POST['address1'])){$_POST['address1'] = '';}
+if(!isset($_POST['address2'])){$_POST['address2'] = '';}
+if(!isset($_POST['postcode'])){$_POST['postcode'] = '';}
+
 
 $projectName = $_POST['project-name'];
 
@@ -41,6 +46,10 @@ if(isset($_SESSION["loggedin"]))
 {
     $id = $_SESSION["userid"];
     $view->userDataSet = $userDataSet->fetchUser($id);
+    $customerName = $userDataSet->getCustomerName($id);
+    $email = $_SESSION["em"];
+    $address = $_SESSION["add"];
+    $number = $_SESSION["pho"];
 }
 
 else {
@@ -51,8 +60,6 @@ else {
     $address2 = htmlentities($_POST['address2']);
     $postcode = htmlentities($_POST['postcode']);
 }
-
-
 
 
 
