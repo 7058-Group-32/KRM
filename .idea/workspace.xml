@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/history.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +81,7 @@
       <workItem from="1610718370465" duration="984000" />
       <workItem from="1610719443381" duration="279000" />
       <workItem from="1610720260614" duration="29000" />
-      <workItem from="1610734322495" duration="2288000" />
-    </task>
-    <task id="LOCAL-00005" summary="renamed application.phtml to form.phtml">
-      <created>1610556078125</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556078125</updated>
+      <workItem from="1610734322495" duration="2558000" />
     </task>
     <task id="LOCAL-00006" summary="renamed application.phtml to form.phtml">
       <created>1610556137140</created>
@@ -428,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610735290597</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Editing history page. Added message to tell user to login to view their history page">
+      <created>1610738088050</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1610738088051</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +445,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved navbar" />
     <MESSAGE value="Added necessary classes to 'Models' section" />
     <MESSAGE value="Added basic structure to classes" />
     <MESSAGE value="Added some text to form.phtml" />
@@ -472,7 +469,8 @@
     <MESSAGE value="editing register.php" />
     <MESSAGE value="Fetch user" />
     <MESSAGE value="Starting to edit history page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting to edit history page" />
+    <MESSAGE value="Editing history page. Added message to tell user to login to view their history page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editing history page. Added message to tell user to login to view their history page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -528,11 +526,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610735300163">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610738094642">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610735300163" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610738094642" />
     <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup" timestamp="1610714925323">
       <screen x="2256" y="0" width="1592" height="1072" />
     </state>
