@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AuctionsWebsite" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -79,14 +79,8 @@
       <workItem from="1610628361972" duration="3260000" />
       <workItem from="1610655636799" duration="6635000" />
       <workItem from="1610710798770" duration="5140000" />
-      <workItem from="1610718370465" duration="764000" />
-    </task>
-    <task id="LOCAL-00001" summary="Write test">
-      <created>1610537313274</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1610537313274</updated>
+      <workItem from="1610718370465" duration="984000" />
+      <workItem from="1610719443381" duration="49000" />
     </task>
     <task id="LOCAL-00002" summary="Write test">
       <created>1610538138921</created>
@@ -424,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610715946776</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="editing register.php">
+      <created>1610719153982</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1610719153982</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +444,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Created temp navbar to navigate website" />
     <MESSAGE value="Improved MVC layout and navigation" />
     <MESSAGE value="Moved footer information into footer.phtml" />
     <MESSAGE value="Improved navbar" />
@@ -468,7 +468,8 @@
     <MESSAGE value="In process of adding a feature that makes sure email has not already been used to register in the past" />
     <MESSAGE value="editing form.phtml" />
     <MESSAGE value="editing login.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing login.php" />
+    <MESSAGE value="editing register.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="editing register.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -524,11 +525,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="2644" y="269" key="Vcs.Push.Dialog.v2" timestamp="1610715952069">
-      <screen x="2256" y="0" width="1592" height="1072" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610719201943">
+      <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610712771006" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610719201943" />
     <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup" timestamp="1610714925323">
       <screen x="2256" y="0" width="1592" height="1072" />
     </state>

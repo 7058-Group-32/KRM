@@ -84,15 +84,17 @@ class UserDataSet
 
     public function fetchUser($userID)
     {
-        $sqlQuery = 'SELECT Email, Phone, Address FROM Users WHERE UserID = '.$userID;
+        $sqlQuery = 'SELECT Name, Email, Phone, Address FROM Users WHERE UserID = '.$userID;
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
 
         $row=$statement->fetch();
 
-        $_SESSION["em"] = $row[0];
-        $_SESSION["add"] = $row[1];
-        $_SESSION["pho"] = $row[2];
+
+        $_SESSION["na"] = $row[0];
+        $_SESSION["em"] = $row[1];
+        $_SESSION["add"] = $row[2];
+        $_SESSION["pho"] = $row[3];
 
         return $row;
 
