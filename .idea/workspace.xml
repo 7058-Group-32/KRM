@@ -21,8 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Models/ApplicationDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ApplicationDataSet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/history.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +82,7 @@
       <workItem from="1610718370465" duration="984000" />
       <workItem from="1610719443381" duration="279000" />
       <workItem from="1610720260614" duration="29000" />
-      <workItem from="1610734322495" duration="3045000" />
-    </task>
-    <task id="LOCAL-00007" summary="renamed application.phtml to form.phtml">
-      <created>1610556363789</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1610556363789</updated>
+      <workItem from="1610734322495" duration="3340000" />
     </task>
     <task id="LOCAL-00008" summary="Organised MVC layout of code">
       <created>1610556531438</created>
@@ -428,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610738224268</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Added 'fetch user applications' method to ApplicationDataSet.php to use on the history page.">
+      <created>1610747028236</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1610747028236</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +446,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added necessary classes to 'Models' section" />
     <MESSAGE value="Added basic structure to classes" />
     <MESSAGE value="Added some text to form.phtml" />
     <MESSAGE value="In progress of creating registration" />
@@ -472,7 +470,8 @@
     <MESSAGE value="Fetch user" />
     <MESSAGE value="Starting to edit history page" />
     <MESSAGE value="Editing history page. Added message to tell user to login to view their history page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing history page. Added message to tell user to login to view their history page" />
+    <MESSAGE value="Added 'fetch user applications' method to ApplicationDataSet.php to use on the history page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 'fetch user applications' method to ApplicationDataSet.php to use on the history page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -528,11 +527,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610738230377">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610747038362">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610738230377" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610747038362" />
     <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup" timestamp="1610714925323">
       <screen x="2256" y="0" width="1592" height="1072" />
     </state>
