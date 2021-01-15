@@ -5,7 +5,6 @@ $view->pageTitle = 'Login';
 
 
 $userData= new UserDataSet();
-session_start();
 
 $view->loggedin = "";
 
