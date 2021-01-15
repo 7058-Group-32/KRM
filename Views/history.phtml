@@ -12,11 +12,12 @@
         <?php
         if(isset($_SESSION["loggedin"]))
         {
+            echo'<div class="text-block-2">You can see your history of projects here.</div>
+                </div>';
 
             foreach ($view->applicationData as $appData) {
                 echo '
-                    <div class="text-block-2">You can see your history of projects here.</div>
-                </div>
+                    
                 <div class="div-block-14">
                     <div class="columns w-row">
                         <div class="w-col w-col-4">

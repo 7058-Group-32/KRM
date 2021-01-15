@@ -8,7 +8,8 @@ require_once('Models/UserDataSet.php');
 //session_start();
 
 $userDataSet = new UserDataSet();
-$view->userDataSet = $userDataSet->fetchUser(3);
+$applicationData = new ApplicationDataSet();
+//$view->userDataSet = $userDataSet->fetchUser(3);
 //$e = $_SESSION["e"];
 //echo $e;
 
@@ -40,9 +41,10 @@ $maxBudgetRange = $_POST['max-budget-range'];
 
 if(isset($_SESSION["loggedin"]))
 {
-    $number = htmlentities($_POST['number']);
-    $id = htmlentities($_SESSION["userid"]);
-    $view->userDataSet = $userDataSet->fetchUser($id);
+    //$number = htmlentities($_POST['number']);
+    $id1 = htmlentities($_SESSION["userid"]);
+    $id = (int)$id1;
+    $userDataSet->fetchUser($id);
     $customerName =  htmlentities($_SESSION["na"]);
     $email = htmlentities($_SESSION["em"]);
     $address = htmlentities($_SESSION["add"]);
@@ -63,8 +65,11 @@ else {
 
 
 //if all of the information has been set, then you can send the mail
-if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name'] || $_POST['deadline'] || $_POST['email'] || $_POST['min-budget-range'] || $_POST['max-budget-range'] || $_POST['short-description'])
+if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $_POST['email'] || $_POST['min-budget-range'] || $_POST['max-budget-range'] || $_POST['short-description'])
 {
+    echo $projectName. $customerName. $shortDescription. $minBudgetRange. $maxBudgetRange.$deadline. $otherReq . $id;
+    //$view->applicationDataSet = $applicationDataSet->addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
+    $applicationData->addApplication($projectName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
 
 
     //Recipient of the email
@@ -82,13 +87,13 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name']
     $headers .="Content-type: text/html\r\n";
 
     //Sends the mail
-    mail($to,$subject,$message, $headers);
+    //mail($to,$subject,$message, $headers);
     
     //min and max have been given the placeholder value of budgetRange
     //no way to get userID currently
-    $applicationDataSet = new ApplicationDataSet();
-    $view->applicationDataSet = $applicationDataSet->addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
-}else{
+
+}
+else{
     //echo 'Not all fields are complete';
 }
 

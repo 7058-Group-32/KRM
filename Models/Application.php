@@ -13,7 +13,7 @@ class Application
         $this->_description = $dbRow['Description'];
         $this->_minRange = $dbRow['MinRange'];
         $this-> _maxRange = $dbRow['MaxRange'];
-        $this->_deadline = $dbRow['Deadlines'];
+        $this->_deadline = $dbRow['Deadline'];
         $this->_otherReq = $dbRow['OtherRequirements'];
         $this->_userID = $dbRow['UserID'];
 

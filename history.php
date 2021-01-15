@@ -1,5 +1,7 @@
 <?php
 
+require_once ("Models/ApplicationDataSet.php");
+
 $view = new stdClass();
 $view->pageTitle = 'History';
 
