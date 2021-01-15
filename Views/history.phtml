@@ -12,24 +12,39 @@
         <?php
         if(isset($_SESSION["loggedin"]))
         {
-            echo '
+
+            foreach ($view->applicationData as $appData) {
+                echo '
                     <div class="text-block-2">You can see your history of projects here.</div>
                 </div>
                 <div class="div-block-14">
                     <div class="columns w-row">
                         <div class="w-col w-col-4">
+                            <h5>Application ID:</h5>
+                            <div class="text-block-3">'.$appData->getApplicationID().'</div>
+                        </div>
+                        <div class="w-col w-col-4">
                             <h5>Project name:</h5>
-                            <div class="text-block-3">project name here</div>
+                            <div class="text-block-3">'.$appData->getProjectName().'</div>
                         </div>
                         <div class="w-col w-col-4">
-                            <h5>Project ID:</h5>
-                            <div>project id here</div>
+                            <h5>Project Description:</h5>
+                            <div>'.$appData->getDescription().'</div>
                         </div>
                         <div class="w-col w-col-4">
-                            <h5>Description:</h5>
-                            <p>description here</p>
+                            <h5>Budget Range:</h5>
+                            <p>£'.$appData->getMinRange().' to £ '.$appData->getMaxRange().'</p>
+                        </div>
+                        <div class="w-col w-col-4">
+                            <h5>Deadline:</h5>
+                            <div>'.$appData->getDeadline().'</div>
+                        </div>
+                        <div class="w-col w-col-4">
+                            <h5>Other Requirements:</h5>
+                            <div>'.$appData->getOtherReq().'</div>
                         </div>
                     </div>';
+            }
         }
 
         else{

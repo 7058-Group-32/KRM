@@ -2,14 +2,14 @@
 class Application
 {
 
-    protected $_appID, $_projectName, $_customerName, $_description, $_minRange, $_maxRange, $_deadline, $_otherReq, $_userID;
+    protected $_appID, $_projectName, $_description, $_minRange, $_maxRange, $_deadline, $_otherReq, $_userID;
 
     //Constructor of Applications from the database
     public function __construct($dbRow)
     {
         $this->_appID = $dbRow['ApplicationID'];
         $this->_projectName = $dbRow['ProjectName'];
-        $this->_customerName = $dbRow['CustomerName'];
+        //$this->_customerName = $dbRow['CustomerName'];
         $this->_description = $dbRow['Description'];
         $this->_minRange = $dbRow['MinRange'];
         $this-> _maxRange = $dbRow['MaxRange'];
@@ -25,9 +25,7 @@ class Application
     public function getProjectName(){
         return $this->_projectName;
     }
-    public function getCustomerName(){
-        return $this->_customerName;
-    }
+
     public function getDescription(){
         return $this->_description;
     }
