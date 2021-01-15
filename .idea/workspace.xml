@@ -80,14 +80,8 @@
       <workItem from="1610655636799" duration="6635000" />
       <workItem from="1610710798770" duration="5140000" />
       <workItem from="1610718370465" duration="984000" />
-      <workItem from="1610719443381" duration="49000" />
-    </task>
-    <task id="LOCAL-00002" summary="Write test">
-      <created>1610538138921</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1610538138921</updated>
+      <workItem from="1610719443381" duration="279000" />
+      <workItem from="1610720260614" duration="29000" />
     </task>
     <task id="LOCAL-00003" summary="Moved view information from controlled to view">
       <created>1610555808149</created>
@@ -425,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610719153982</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Fetch user">
+      <created>1610719506499</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1610719506499</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +445,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Improved MVC layout and navigation" />
     <MESSAGE value="Moved footer information into footer.phtml" />
     <MESSAGE value="Improved navbar" />
     <MESSAGE value="Added necessary classes to 'Models' section" />
@@ -469,7 +469,8 @@
     <MESSAGE value="editing form.phtml" />
     <MESSAGE value="editing login.php" />
     <MESSAGE value="editing register.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="editing register.php" />
+    <MESSAGE value="Fetch user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fetch user" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -525,11 +526,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610719201943">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610719511004">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610719201943" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610719511004" />
     <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup" timestamp="1610714925323">
       <screen x="2256" y="0" width="1592" height="1072" />
     </state>

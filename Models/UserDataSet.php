@@ -113,6 +113,5 @@ class UserDataSet
         } else {
             return null;
         }
-
     }
 }
