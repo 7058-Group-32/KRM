@@ -97,4 +97,20 @@ class UserDataSet
         return $row;
 
     }
+    
+    
+    public function getCustomerName($userID)
+    {
+        $sqlQuery = 'SELECT Name FROM Users WHERE UserID = '.$userID;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+        $row = $statement->fetch();
+
+        if ($row != null) {
+            return $row[0];
+        } else {
+            return null;
+        }
+
+    }
 }
