@@ -34,15 +34,19 @@ if(isset($_POST['register']))
         $_SESSION["registered"] = true;
     }
 
-    elseif ($unique == true)
-    {
-        $view->register = "Oops! An account has already been made using this email!";
-    }
-
-
 
     else{
-        $view->register = "Oops! Your passwords do not match!";
+
+        if ($unique ==true)
+        {
+            $view->register = "Oops! An account has already been made using this email!";
+
+        }
+
+        else
+        {
+            $view->register = "Oops! Your passwords do not match!";
+        }
     }
 
 

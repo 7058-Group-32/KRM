@@ -9,6 +9,8 @@ session_start();
 
 $view->loggedin = "";
 
+unset($_SESSION["registered"]);
+
 if (isset($_POST["login"])) {
     $userPass = htmlentities($_POST['password']);
     $userEmail = htmlentities($_POST['email']);
