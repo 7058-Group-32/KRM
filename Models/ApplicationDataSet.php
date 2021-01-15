@@ -16,14 +16,14 @@ class ApplicationDataSet
      public function addApplication($projectName, $description, $minRange, $maxRange, $deadline, $otherReq, $userID)
     {
          
-        $sqlQuery = "INSERT INTO Application(ProjectName, Description, MinRange, MaxRange, Deadline, OtherRequirements, UserID) VALUES ('" . $projectName . "','" . $description . "','" . $minRange . "','" . $maxRange . "','" . $deadline . "','" . $otherReq . "'," . $userID . ")";
-        $sqlQuery2 = "INSERT INTO Application(ProjectName, Description, MinRange, MaxRange, Deadline, OtherRequirements, UserID) VALUES ('Proj Test','Desc Test','Range Test','Max Test','Dead Test','Other Test',11)";
+        $sqlQuery = "INSERT INTO Application(ProjectName, Description, MinRange, MaxRange, Deadline, OtherRequirements, UserID) VALUES ('" . $projectName . "','" . $description . "','" . $minRange . "','" . $maxRange . "','" . $deadline . "','" . $otherReq . "'," . (int)$userID . ")";
+        //$sqlQuery2 = "INSERT INTO Application(ProjectName, Description, MinRange, MaxRange, Deadline, OtherRequirements, UserID) VALUES ('Proj Test','Desc Test','Range Test','Max Test','Dead Test','Other Test',11)";
 
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
 
-        $statement2 = $this->_dbHandle->prepare($sqlQuery2);
-        $statement2->execute();
+        //$statement2 = $this->_dbHandle->prepare($sqlQuery2);
+        //$statement2->execute();
     }
     
     //Retrieves all of the applications from a given user

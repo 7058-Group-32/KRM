@@ -67,7 +67,7 @@ else {
 //if all of the information has been set, then you can send the mail
 if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $_POST['email'] || $_POST['min-budget-range'] || $_POST['max-budget-range'] || $_POST['short-description'])
 {
-    echo $projectName. $customerName. $shortDescription. $minBudgetRange. $maxBudgetRange.$deadline. $otherReq . $id;
+    echo $projectName.  $shortDescription. $minBudgetRange. $maxBudgetRange. $deadline. $otherReq . $id;
     //$view->applicationDataSet = $applicationDataSet->addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
     $applicationData->addApplication($projectName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
 
