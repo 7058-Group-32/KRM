@@ -12,10 +12,6 @@ $view->userDataSet = $userDataSet->fetchUser(3);
 //$e = $_SESSION["e"];
 //echo $e;
 
-
-
-
-
 //Initialises all of the post variables
 if(!isset($_POST['project-name'])){$_POST['project-name'] = '';}
 if(!isset($_POST['customer-name'])){$_POST['customer-name'] = '';}
@@ -54,6 +50,8 @@ if(isset($_SESSION["loggedin"]))
 }
 
 else {
+    $id = 13;
+    
     $customerName = htmlentities($_POST['customer-name']);
     $email = htmlentities($_POST['email']);
     $number = htmlentities($_POST['number']);
@@ -88,8 +86,8 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['customer-name']
     
     //min and max have been given the placeholder value of budgetRange
     //no way to get userID currently
-    //addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $userID);
-
+    $applicationDataSet = new ApplicationDataSet();
+    $view->applicationDataSet = $applicationDataSet->addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
 }else{
     //echo 'Not all fields are complete';
 }
