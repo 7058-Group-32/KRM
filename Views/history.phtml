@@ -1,7 +1,5 @@
 <?php require('template/header.phtml') ?>
 
-<h1>This page is currently under construction</h1>
-
 <body class="body-4">
 
 
@@ -12,6 +10,7 @@
         <?php
         if(isset($_SESSION["loggedin"]))
         {
+            $count=1;
             echo'<div class="text-block-2">You can see your history of projects here.</div>
                 </div>';
 
@@ -19,7 +18,9 @@
                 echo '
                     
                 <div class="div-block-14">
+                <h1 class="heading-3">Application '.$count.'</h1>
                     <div class="columns w-row">
+                    
                         <div class="w-col w-col-4">
                             <h5>Application ID:</h5>
                             <div class="text-block-3">'.$appData->getApplicationID().'</div>
@@ -46,6 +47,7 @@
                         </div>
                     </div>
                     </div>';
+                $count = $count +1;
             }
         }
 
