@@ -44,17 +44,18 @@ $maxBudgetRange = $_POST['max-budget-range'];
 
 if(isset($_SESSION["loggedin"]))
 {
-    $id = $_SESSION["userid"];
+    $number = htmlentities($_POST['number']);
+    $id = htmlentities($_SESSION["userid"]);
     $view->userDataSet = $userDataSet->fetchUser($id);
-    $customerName =  $_SESSION["na"];
-    $email = $_SESSION["em"];
-    $address = $_SESSION["add"];
-    $number = $_SESSION["pho"];
+    $customerName =  htmlentities($_SESSION["na"]);
+    $email = htmlentities($_SESSION["em"]);
+    $address = htmlentities($_SESSION["add"]);
+    $number = htmlentities($_SESSION["pho"]);
 }
 
 else {
-    $customerName = $_POST['customer-name'];
-    $email = $_POST['email'];
+    $customerName = htmlentities($_POST['customer-name']);
+    $email = htmlentities($_POST['email']);
     $number = htmlentities($_POST['number']);
     $address1 = htmlentities($_POST['address1']);
     $address2 = htmlentities($_POST['address2']);
