@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,14 +85,7 @@
       <workItem from="1610719443381" duration="279000" />
       <workItem from="1610720260614" duration="29000" />
       <workItem from="1610734322495" duration="10828000" />
-      <workItem from="1610825469742" duration="307000" />
-    </task>
-    <task id="LOCAL-00014" summary="Improved navbar">
-      <created>1610557815196</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1610557815197</updated>
+      <workItem from="1610825469742" duration="948000" />
     </task>
     <task id="LOCAL-00015" summary="Added necessary classes to 'Models' section">
       <created>1610558159383</created>
@@ -429,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610754247734</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="Removed notes at top of form.phtml">
+      <created>1610825843021</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1610825843021</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +449,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login and registration form" />
     <MESSAGE value="Edits to form.phtml" />
     <MESSAGE value="added notes.txt in images folder" />
     <MESSAGE value="Implementing new html and php by Seyedmahdi" />
@@ -473,7 +473,8 @@
     <MESSAGE value="History page is working. Now working on application sumbition" />
     <MESSAGE value="Application Database now working when user submits a Application" />
     <MESSAGE value="Improving layout of history.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improving layout of history.phtml" />
+    <MESSAGE value="Removed notes at top of form.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed notes at top of form.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -529,11 +530,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610754249773">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610825844288">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610754249773" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610825844288" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

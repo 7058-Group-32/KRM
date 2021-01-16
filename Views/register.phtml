@@ -85,13 +85,15 @@ else {
                                 <input type="password" class="text-field login-texfield w-input" maxlength="256" name="password2"  placeholder="Confirm Password" id="confirm-password" required="">
                             </div>
                                 <input type="submit" name="register" value="Register" data-wait="Please wait..." class="submit-button ghost-btn w-button">
+                            <div class="error-message">
+                                <div class="text-block">'.$view->register.'</div>
+                            </div>
+                            
                             <div class="register-text-div">
                                 <label class="field-label-2">Already have an account?</label>
                                 <a href="login.php" class="register-link-text">Log In</a>
                             </div>
-                            <div class="error-message">
-                                <div class="text-block">'.$view->register.'</div>
-                            </div>
+                            
                         </form>
                         
                     </div>

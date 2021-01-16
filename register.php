@@ -26,10 +26,23 @@ if(isset($_POST['register']))
     if ($password1 == $password2)
     {
         $password = $password1;
-        $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
-        $userData->register($name, $email, $number, $address, $encryptedPass);
 
-        $_SESSION["registered"] = true;
+        // Validate password strength
+        $uppercase = preg_match('@[A-Z]@', $password);
+        $lowercase = preg_match('@[a-z]@', $password);
+        $number    = preg_match('@[0-9]@', $password);
+        $specialChars = preg_match('@[^\w]@', $password);
+
+        if(!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
+            $view->register = 'Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.';
+
+        }
+        else {
+            $encryptedPass= password_hash($password1,PASSWORD_DEFAULT);
+            $userData->register($name, $email, $number, $address, $encryptedPass);
+
+            $_SESSION["registered"] = true;
+        }
     }
 
     else {
