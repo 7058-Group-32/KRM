@@ -67,6 +67,16 @@ else {
 //if all of the information has been set, then you can send the mail
 if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $_POST['email'] || $_POST['min-budget-range'] || $_POST['max-budget-range'] || $_POST['short-description'])
 {
+    //If the description contains an apostrophe, it's replaced by an escaped apostrophe
+    if(str_contains($shortDescription,"'")){
+        str_replace("'","\'",$shortDescription);
+    }
+
+    //If the description contains a speech mark, it's replaced by an escaped speech mark
+    if(str_contains($shortDescription,'"')){
+        str_replace('"','\"',$shortDescription);
+    }
+    
     echo $projectName.  $shortDescription. $minBudgetRange. $maxBudgetRange. $deadline. $otherReq . $id;
     //$view->applicationDataSet = $applicationDataSet->addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
     $applicationData->addApplication($projectName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
