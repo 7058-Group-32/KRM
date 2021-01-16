@@ -3,7 +3,7 @@ require_once('Models/UserDataSet.php');
 $view = new stdClass();
 $view->pageTitle = 'Homepage';
 
-session_start();
+//session_start();
 $userData = new UserDataSet();
 
 $view->register="";
