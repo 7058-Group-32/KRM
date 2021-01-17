@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change afterPath="$PROJECT_DIR$/images/isocertbutton60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/krm._1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/history.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/template/footer.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/footer.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/webflow.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/webflow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,14 +84,7 @@
       <workItem from="1610720260614" duration="29000" />
       <workItem from="1610734322495" duration="10828000" />
       <workItem from="1610825469742" duration="1517000" />
-      <workItem from="1610898929093" duration="1329000" />
-    </task>
-    <task id="LOCAL-00017" summary="Added some text to form.phtml">
-      <created>1610559149169</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1610559149169</updated>
+      <workItem from="1610898929093" duration="1456000" />
     </task>
     <task id="LOCAL-00018" summary="In progress of creating registration">
       <created>1610560723985</created>
@@ -438,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610826988447</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Implemented new footer">
+      <created>1610900324275</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1610900324276</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +448,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementing new html and php by Seyedmahdi" />
     <MESSAGE value="Implementing new css and html by SeyedMahdi" />
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Index page and navbar implemented." />
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Added history page (yet to be constructed)" />
@@ -482,7 +472,8 @@
     <MESSAGE value="Removed notes at top of form.phtml" />
     <MESSAGE value="Added a check to make sure user registers with a secure password" />
     <MESSAGE value="Improved layout of code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved layout of code" />
+    <MESSAGE value="Implemented new footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented new footer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -538,11 +529,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610826989840">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610900326783">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610826989840" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610900326783" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

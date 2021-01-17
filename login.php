@@ -18,7 +18,6 @@ if (isset($_POST["login"])) {
     if ($verify==1)
     {
         $_SESSION["loggedin"] = true;
-        echo 'logged in';
         $_SESSION["userid"] = $userData->fetchId($userEmail);
 
         //$_SESSION["email"] = $userEmail;
