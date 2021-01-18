@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!" />
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,13 +85,9 @@
       <workItem from="1610734322495" duration="10828000" />
       <workItem from="1610825469742" duration="1517000" />
       <workItem from="1610898929093" duration="1638000" />
-    </task>
-    <task id="LOCAL-00019" summary="In progress of creating registration">
-      <created>1610561036719</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1610561036719</updated>
+      <workItem from="1610900630778" duration="681000" />
+      <workItem from="1610914230904" duration="63000" />
+      <workItem from="1610978665528" duration="336000" />
     </task>
     <task id="LOCAL-00020" summary="In progress of creating registration">
       <created>1610561261955</created>
@@ -426,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610900429483</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="...">
+      <created>1610900676244</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1610900676245</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +451,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementing new css and html by SeyedMahdi. Index page and navbar implemented." />
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Added history page (yet to be constructed)" />
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Adding new code to form.phtml" />
     <MESSAGE value="Login page is now completed" />
@@ -470,7 +475,8 @@
     <MESSAGE value="Improved layout of code" />
     <MESSAGE value="Implemented new footer" />
     <MESSAGE value="Removed random echo in login.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed random echo in login.php" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -526,11 +532,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610900434951">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610900682433">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610900434951" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610900682433" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
