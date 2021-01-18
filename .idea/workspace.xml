@@ -21,7 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/register.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/template/footer.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/footer.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,14 +92,7 @@
       <workItem from="1610898929093" duration="1638000" />
       <workItem from="1610900630778" duration="681000" />
       <workItem from="1610914230904" duration="63000" />
-      <workItem from="1610978665528" duration="336000" />
-    </task>
-    <task id="LOCAL-00020" summary="In progress of creating registration">
-      <created>1610561261955</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1610561261955</updated>
+      <workItem from="1610978665528" duration="1282000" />
     </task>
     <task id="LOCAL-00021" summary="In progress of creating registration form">
       <created>1610561892327</created>
@@ -432,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610900676245</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Commented out if str contains">
+      <created>1610979026625</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1610979026625</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementing new css and html by SeyedMahdi. Added history page (yet to be constructed)" />
     <MESSAGE value="Implementing new css and html by SeyedMahdi. Adding new code to form.phtml" />
     <MESSAGE value="Login page is now completed" />
     <MESSAGE value="Improved navigation bar so when user is logged in, it will say 'logout'" />
@@ -476,7 +480,8 @@
     <MESSAGE value="Implemented new footer" />
     <MESSAGE value="Removed random echo in login.php" />
     <MESSAGE value="..." />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <MESSAGE value="Commented out if str contains" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented out if str contains" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -532,10 +537,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1610657055273" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1610900682433">
-      <screen x="0" y="0" width="1504" height="963" />
+    <state x="2644" y="269" key="Vcs.Push.Dialog.v2" timestamp="1610979037066">
+      <screen x="2256" y="0" width="1592" height="1072" />
     </state>
-    <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715952069" />
+    <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979037066" />
     <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1610900682433" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
