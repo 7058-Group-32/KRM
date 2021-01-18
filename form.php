@@ -89,7 +89,7 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
     $subject = $projectName;
 
     //The body of the message
-    $message = '<p><b> Project Name:'. $projectName .'</b></p> <p> Customer Name:'.$customerName.'</p> <p> Deadline: '. $deadline . '</p> <p> Budget Range: '. $minBudgetRange . ' - '. $maxBudgetRange .'</p> <p> Short Description: '. $shortDescription .'</p> <p> Other Requirements: ' . $otherReq . '</p>';
+    $message = '<p><b> Project Name:'. $projectName .'</b></p> <p> Customer Name:'.$customerName.'</p> <p> Deadline: '. $deadline . '</p> <p> Budget Range: '. $minBudgetRange . ' - '. $maxBudgetRange .'</p> <p> Short Description: '. $shortDescription .'</p> <p> Other Requirements: ' . $otherReq . '</p> <p> <b>Contact Information: </b></p> Customer Name: <p>'. $customerName.'</p> <p> Email: '. $email . '</p> <p> Phone Number: '. $number . '</p> <p> Email: '. $email . '</p>';
 
     //Headers of the message
     $headers = "From: " . $customerName . "<".$email.">\r\n";
