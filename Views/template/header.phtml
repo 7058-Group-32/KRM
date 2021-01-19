@@ -37,10 +37,12 @@
 
 <?php
 $login = "Log In";
+$name = null;
 
 if(isset($_SESSION["loggedin"]))
 {
     $login = "Log Out";
+    $name = $_SESSION["na"];
 }
 
 ?>
@@ -52,7 +54,9 @@ if(isset($_SESSION["loggedin"]))
             <nav role="navigation" class="nav-menu w-nav-menu">
                 <a href="form.php" class="nav-link-3 w-nav-link">New Application</a>
                 <a href="history.php" class="nav-link-3 w-nav-link">History</a>
+                <a href="contact.php" class="nav-link-3 w-nav-link">Contact Us</a>
                 <a href="login.php" class="nav-link-2 nav-link w-nav-link"><?php echo $login; ?></a>
+                <a href="#" class="nav-link-3 w-nav-link"><?php echo $name; ?></a>
             </nav>
             <div class="menu-button w-nav-button">
                 <div class="icon w-icon-nav-menu"></div>

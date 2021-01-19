@@ -19,6 +19,8 @@ if (isset($_POST["login"])) {
     {
         $_SESSION["loggedin"] = true;
         $_SESSION["userid"] = $userData->fetchId($userEmail);
+        $userData->fetchUser($_SESSION["userid"]);
+        header("Location: index.php");
 
         //$_SESSION["email"] = $userEmail;
         //echo "logged in";

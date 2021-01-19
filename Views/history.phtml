@@ -17,7 +17,7 @@
             foreach ($view->applicationData as $appData) {
                 echo '
                     
-                <div class="div-block-14">
+                <!--<div class="div-block-14">
                 <h1 class="heading-3">Application '.$count.'</h1>
                     <div class="columns w-row">
                     
@@ -46,9 +46,71 @@
                             <div>'.$appData->getOtherReq().'</div>
                         </div>
                     </div>
-                    </div>';
+                    </div>-->
+                    
+                    
+                    
+                    <div class="card-wrapper mobile-view-card-wrapper">
+            <div class="project-cards">
+                <div class="card-div">
+                    <div class="div-block-20"><img src="images/folder_open_24px.svg" loading="lazy" alt=""></div>
+                    <div class="div-block-21">
+                        <div class="div-block-22">
+                            <div class="div-block-23">
+                                <div class="div-block-26"><img src="images/Name_.svg" loading="lazy" alt="" class="image-5"></div>
+                                <div>
+                                    <div class="text-block-6">'.$appData->getApplicationID().'</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-block-24">
+                            <div class="div-block-25"><img src="images/ID_.svg" loading="lazy" alt=""></div>
+                            <div>
+                                <div class="text-block-6">'.$appData->getApplicationID().'</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-block-27">
+                                <div class="div-block-28"><img src="images/Description_.svg" loading="lazy" alt=""></div>
+                                <div>
+                                    <div class="text-block-6">'.$appData->getDescription().'<br>‍</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-block-27">
+                                <div class="div-block-28"><img src="images/Description_.svg" loading="lazy" alt=""></div>
+                                <div>
+                                    <div class="text-block-6">£'.$appData->getMinRange().' to £ '.$appData->getMaxRange().'<br>‍</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-block-27">
+                                <div class="div-block-28"><img src="images/Description_.svg" loading="lazy" alt=""></div>
+                                <div>
+                                    <div class="text-block-6">'.$appData->getDeadline().'<br>‍</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-block-27">
+                                <div class="div-block-28"><img src="images/Description_.svg" loading="lazy" alt=""></div>
+                                <div>
+                                    <div class="text-block-6">'.$appData->getOtherReq().'<br>‍</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            ';
                 $count = $count +1;
             }
+
+
+
         }
 
         else{
@@ -57,10 +119,65 @@
                     <div class="matthew-class"></div>
                 </div>';
         }
+
         ?>
 
     </div>
-<!--</div>-->
+
+<!--    <div class="history-section">
+        <div class="history-block">
+            <h1 class="heading-3">Projects History</h1>
+            <div class="text-block-2">You can see your history of projects here.</div>
+        </div>
+        <div class="div-block-14">
+            <div class="columns w-row">
+                <div class="w-col w-col-4">
+                    <h5>Project name:</h5>
+                    <div class="text-block-3">project name here</div>
+                </div>
+                <div class="w-col w-col-4">
+                    <h5>Project ID:</h5>
+                    <div>project id here</div>
+                </div>
+                <div class="w-col w-col-4">
+                    <h5>Description:</h5>
+                    <p>description here</p>
+                </div>
+            </div>
+        </div>
+        <div class="card-wrapper mobile-view-card-wrapper">
+            <div class="project-cards">
+                <div class="card-div">
+                    <div class="div-block-20"><img src="images/folder_open_24px.svg" loading="lazy" alt=""></div>
+                    <div class="div-block-21">
+                        <div class="div-block-22">
+                            <div class="div-block-23">
+                                <div class="div-block-26"><img src="images/Name_.svg" loading="lazy" alt="" class="image-5"></div>
+                                <div>
+                                    <div class="text-block-6">Project name to be inserted here</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="div-block-24">
+                            <div class="div-block-25"><img src="images/ID_.svg" loading="lazy" alt=""></div>
+                            <div>
+                                <div class="text-block-6">Project ID</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="div-block-27">
+                                <div class="div-block-28"><img src="images/Description_.svg" loading="lazy" alt=""></div>
+                                <div>
+                                    <div class="text-block-6">Project Description<br>‍</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>-->
 
 
 <?php require('template/footer.phtml') ?>
