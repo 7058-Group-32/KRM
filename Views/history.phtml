@@ -12,7 +12,10 @@
         {
             $count=1;
             echo'<div class="text-block-2">You can see your history of projects here.</div>
-                </div>';
+                </div>
+                <div class="card-wrapper mobile-view-card-wrapper">';
+
+
 
             foreach ($view->applicationData as $appData) {
                 echo '
@@ -50,7 +53,7 @@
                     
                     
                     
-                    <div class="card-wrapper mobile-view-card-wrapper">
+                    
             <div class="project-cards">
                 <div class="card-div">
                     <div class="div-block-20"><img src="images/folder_open_24px.svg" loading="lazy" alt=""></div>
@@ -104,7 +107,8 @@
                     </div>
                 </div>
             </div>
-            </div>
+            
+            
             ';
                 $count = $count +1;
             }
@@ -120,9 +124,12 @@
                 </div>';
         }
 
+
+
         ?>
 
     </div>
+
 
 <!--    <div class="history-section">
         <div class="history-block">

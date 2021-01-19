@@ -1,4 +1,5 @@
 <?php
+
 $view = new stdClass();
 $view->pageTitle = 'Application';
 
@@ -84,10 +85,10 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
     if(isset($deadline))
     {
         //First checks that the deadline contains a "-"
-        if (str_contains($deadline, '-')) {
-            $expDeadline = explode("-",$deadline);
+        //if (str_contains($deadline, '-')) {
+            //$expDeadline = explode("-",$deadline);
             //Then checks that the date is a real date
-            if(checkdate((int) $expDeadline[1],(int) $expDeadline[2],(int) $expDeadline[0]) == true ){
+            //if(checkdate((int) $expDeadline[1],(int) $expDeadline[2],(int) $expDeadline[0]) == true ){
                 //Then checks that the minbudget and maxbudget are valid
                 if(is_numeric($minBudgetRange) && is_numeric($maxBudgetRange) && $maxBudgetRange > $minBudgetRange){
                     //Message to say that the submission has been submitted
@@ -110,20 +111,20 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
                     //mail($to,$subject,$message, $headers);
 
                 }else{
+
                     echo '<div class="section"> <h3 class="heading-3" >Budget is not valid!</h3> </div>';
 
                 }
 
-            }else{
-                echo '<div class="section"> <h3 class="heading-3" >Date is not valid!</h3> </div>';
-
             }
-        } else{
-            echo'<div class="section"> <h3 class="heading-3" >Date must be in YYYY-MM-DD format</h3> </div>';
-        }
+    //else{
+      //          echo '<div class="section"> <h3 class="heading-3" >Date is not valid!</h3> </div>';
 
+        //    }
 
-    }
+//else{
+  //          echo'<div class="section"> <h3 class="heading-3" >Date must be in YYYY-MM-DD format</h3> </div>';
+    //    }
 
 }
 else{
