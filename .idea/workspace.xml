@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
+      <change afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,9 +37,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PhpTemplates">
-    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1n0q63P2O9ErP99Vsw7S1Ud5yZw" />
@@ -93,14 +94,8 @@
       <workItem from="1611069791641" duration="895000" />
       <workItem from="1611070886206" duration="130000" />
       <workItem from="1611071524307" duration="165000" />
-      <workItem from="1611073665873" duration="49000" />
-    </task>
-    <task id="LOCAL-00032" summary="added notes.txt in images folder">
-      <created>1610634385706</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1610634385706</updated>
+      <workItem from="1611073665873" duration="96000" />
+      <workItem from="1611082650203" duration="517000" />
     </task>
     <task id="LOCAL-00033" summary="added notes.txt in images folder">
       <created>1610635359312</created>
@@ -438,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611071672659</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="Uncommented mail sending tool">
+      <created>1611073736223</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1611073736223</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Starting to edit history page" />
     <MESSAGE value="Editing history page. Added message to tell user to login to view their history page" />
     <MESSAGE value="Added 'fetch user applications' method to ApplicationDataSet.php to use on the history page." />
     <MESSAGE value="Making use of fetchUserApplications method in history.php" />
@@ -482,7 +483,8 @@
     <MESSAGE value="Connect to js file in header" />
     <MESSAGE value="Changed ajax js from https to http so that is works on the poseidon web server" />
     <MESSAGE value="added mobile view div to index.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mobile view div to index.phtml" />
+    <MESSAGE value="Uncommented mail sending tool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uncommented mail sending tool" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -534,15 +536,15 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556237078" />
-    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1611062289716">
+    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1611083011587">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611062289716" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611071675858">
+    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611073741042">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611071675858" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611073741042" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

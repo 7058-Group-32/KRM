@@ -119,7 +119,6 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
 
                     //echo '<div class="section"> <h3 class="heading-3" >Budget is not valid!</h3> </div>';
                     $view->message = '<div class="text-block">Budget is not valid!</div>';
-
                 }
 
             //}
