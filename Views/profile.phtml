@@ -1,23 +1,38 @@
 <?php require('template/header.phtml') ?>
 
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+
 <div class="user-info-div">
     <div class="div-block-39">
         <div class="user-info">
             <div class="div-block-41"><img src="images/person_outline_24px.svg" loading="lazy" width="42" alt="">
                 <h1 class="heading-11">Profile</h1>
             </div>
-            <div class="text-block-10">Add information about yourself.</div>
+            <div class="text-block-10">Add information about yourself. Change the relevant fields</div>
             <div class="w-form">
                 <form id="email-form" name="email-form" data-name="Email Form" class="form-3">
-                    <input type="text" class="text-field-3 uf-textfield w-input" maxlength="256" name="userInfo-name" data-name="userInfo-name" placeholder="Name" id="userInfo-name">
-                    <input type="email" class="text-field-4 w-input" maxlength="256" name="userInfo-email" data-name="userInfo-email" placeholder="Email" id="userInfo-email">
-                    <input type="tel" class="text-field-5 w-input" maxlength="256" name="userInfo-phone" data-name="userInfo-phone" placeholder="Phone Number" id="userInfo-phone">
-                    <input type="text" class="text-field-6 w-input" maxlength="256" name="userInfo-ad1" data-name="userInfo-ad1" placeholder="Address Line 1" id="userInfo-ad">
-                    <input type="text" class="text-field-7 w-input" maxlength="256" name="userInfo-ad2" data-name="userInfo-ad2" placeholder="Address Line 2" id="userInfo-ad-2">
-                    <input type="text" class="text-field-8 w-input" maxlength="256" name="userInfo-postcode" data-name="userInfo-postcode" placeholder="Post/Zipcode" id="userInfo-postcode">
-                    <input type="password" class="text-field-9 w-input" maxlength="256" name="userInfo-pass" data-name="userInfo-pass" placeholder="Password" id="userInfo-pass">
+                    <div class="text-block-10" id="profile-text">Change your name. Your current name: <?php echo $view->name; ?></div>
+                    <input type="text" class="text-field-3 uf-textfield w-input" maxlength="256" name="userInfo-name" data-name="userInfo-name" placeholder="New Name" id="userInfo-name">
+
+                    <div class="text-block-10" id="profile-text">Change your email. Your current email: <?php echo $view->email; ?></div>
+                    <input type="email" class="text-field-4 w-input" maxlength="256" name="userInfo-email" data-name="userInfo-email" placeholder="New Email" id="userInfo-email">
+
+                    <div class="text-block-10" id="profile-text">Change your phone number. Your current phone number: <?php echo $view->address; ?></div>
+                    <input type="tel" class="text-field-5 w-input" maxlength="256" name="userInfo-phone" data-name="userInfo-phone" placeholder="New Phone Number" id="userInfo-phone">
+
+                    <div class="text-block-10" id="profile-text">Change your address. Your current name: <?php echo $view->phone; ?></div>
+                    <input type="text" class="text-field-6 w-input" maxlength="256" name="userInfo-ad1" data-name="userInfo-ad1" placeholder="New Address Line 1" id="userInfo-ad">
+                    <input type="text" class="text-field-7 w-input" maxlength="256" name="userInfo-ad2" data-name="userInfo-ad2" placeholder="New Address Line 2" id="userInfo-ad-2">
+                    <input type="text" class="text-field-8 w-input" maxlength="256" name="userInfo-postcode" data-name="userInfo-postcode" placeholder="New Post/Zipcode" id="userInfo-postcode">
+
+                    <div class="text-block-10" id="profile-text">Change your Password.</div>
+                    <input type="password" class="text-field-9 w-input" maxlength="256" name="userInfo-pass" data-name="userInfo-pass" placeholder="Current Password" id="userInfo-pass">
+                    <input type="password" class="text-field-7 w-input" maxlength="256" name="userInfo-pass" data-name="userInfo-pass" placeholder="New Password" id="userInfo-pass">
+                    <input type="password" class="text-field-8 w-input" maxlength="256" name="userInfo-pass" data-name="userInfo-pass" placeholder="Confirm New Password" id="userInfo-pass">
                     <div class="div-block-40">
-                        <a href="#" class="link-6">Delete Your Account</a><input type="submit" value="Save" data-wait="Please wait..." class="submit-button-2 uf-mobile-view w-button">
+                        <input type="submit" name="delete" value="Delete Your Account" data-wait="Please wait..." class="link-6">
+                        <!--<a href="#" class="link-6">Delete Your Account</a>-->
+                        <input type="submit" name="save" value="Save" data-wait="Please wait..." class="submit-button-2 uf-mobile-view w-button">
                     </div>
                 </form>
                 <div class="w-form-done">

@@ -20,12 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/profile.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/krm-5b821e.webflow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,14 +96,7 @@
       <workItem from="1611070886206" duration="130000" />
       <workItem from="1611071524307" duration="165000" />
       <workItem from="1611073665873" duration="96000" />
-      <workItem from="1611082650203" duration="517000" />
-    </task>
-    <task id="LOCAL-00033" summary="added notes.txt in images folder">
-      <created>1610635359312</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1610635359312</updated>
+      <workItem from="1611082650203" duration="3523000" />
     </task>
     <task id="LOCAL-00034" summary="added notes.txt in images folder">
       <created>1610635387208</created>
@@ -440,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611073736223</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Implementing profile page">
+      <created>1611083225563</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1611083225564</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +460,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Editing history page. Added message to tell user to login to view their history page" />
     <MESSAGE value="Added 'fetch user applications' method to ApplicationDataSet.php to use on the history page." />
     <MESSAGE value="Making use of fetchUserApplications method in history.php" />
     <MESSAGE value="Adding the table to take user from the Application database and put into a good format on history.phtml" />
@@ -484,7 +484,8 @@
     <MESSAGE value="Changed ajax js from https to http so that is works on the poseidon web server" />
     <MESSAGE value="added mobile view div to index.phtml" />
     <MESSAGE value="Uncommented mail sending tool" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uncommented mail sending tool" />
+    <MESSAGE value="Implementing profile page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing profile page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -504,26 +505,26 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610737178553" />
-    <state width="1461" height="292" key="GridCell.Tab.0.bottom" timestamp="1611071689665">
+    <state width="1461" height="292" key="GridCell.Tab.0.bottom" timestamp="1611084917949">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611071689665" />
-    <state width="1461" height="292" key="GridCell.Tab.0.center" timestamp="1611071689665">
+    <state width="1461" height="292" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611084917949" />
+    <state width="1461" height="292" key="GridCell.Tab.0.center" timestamp="1611084917948">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611071689665" />
-    <state width="1461" height="292" key="GridCell.Tab.0.left" timestamp="1611071689665">
+    <state width="1461" height="292" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611084917948" />
+    <state width="1461" height="292" key="GridCell.Tab.0.left" timestamp="1611084917947">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611071689665" />
-    <state width="1461" height="292" key="GridCell.Tab.0.right" timestamp="1611071689665">
+    <state width="1461" height="292" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611084917947" />
+    <state width="1461" height="292" key="GridCell.Tab.0.right" timestamp="1611084917949">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611071689665" />
+    <state width="1461" height="292" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611084917949" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -540,11 +541,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611073741042">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611083227599">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611073741042" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611083227599" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

@@ -39,11 +39,13 @@
 <?php
 $login = "Log In";
 $name = null;
+$href = "#";
 
 if(isset($_SESSION["loggedin"]))
 {
     $login = "Log Out";
     $name = $_SESSION["na"];
+    $href = "profile.php";
 }
 
 ?>
@@ -57,7 +59,7 @@ if(isset($_SESSION["loggedin"]))
                 <a href="history.php" class="nav-link-3 w-nav-link">History</a>
                 <a href="contact.php" class="nav-link-3 w-nav-link">Contact Us</a>
                 <a href="login.php" class="nav-link-2 nav-link w-nav-link"><?php echo $login; ?></a>
-                <a href="profile.php" class="nav-link-3 w-nav-link"><?php echo $name; ?></a>
+                <a href="<?php echo $href; ?>" class="nav-link-3 w-nav-link"><?php echo $name; ?></a>
             </nav>
             <div class="menu-button w-nav-button">
                 <div class="icon w-icon-nav-menu"></div>

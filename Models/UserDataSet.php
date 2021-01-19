@@ -114,4 +114,25 @@ class UserDataSet
             return null;
         }
     }
+
+    public function deleteUser($userID)
+    {
+        $sqlQuery = 'DELETE FROM Users WHERE UserID = '.$userID;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+    }
+
+    public function changeName($id, $newName)
+    {
+        $sqlQuery = "UPDATE Users SET Name = '" . $newName . "' WHERE UserID = ".$id ;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+    }
+
+    public function changeEmail($id, $newEmail)
+    {
+        $sqlQuery = "UPDATE Users SET Email = '" . $newEmail . "' WHERE UserID = ".$id ;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+    }
 }

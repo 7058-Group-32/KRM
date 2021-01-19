@@ -9,6 +9,7 @@ $userData= new UserDataSet();
 $view->loggedin = "";
 
 unset($_SESSION["registered"]);
+unset($_SESSION["deleted"]);
 
 if (isset($_POST["login"])) {
     $userPass = htmlentities($_POST['password']);
