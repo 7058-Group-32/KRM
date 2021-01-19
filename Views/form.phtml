@@ -5,16 +5,15 @@
 
     <body class="body">
 
-    <?php echo '<div class="error-message">
-        <div class="text-block">'.$view->message.'</div>
-    </div>';
-    ?>
+
 
 
     <div class="form-container">
+
         <div class="section">
             <h1 class="heading">Project Application</h1>
             <p class="paragraph">Please fill up the form with required information.</p>
+            <?php echo '<div class="error-message" id="form-message">'.$view->message.'</div>';?>
             <div class="form-block w-form">
                 <form id="email-form" name="email-form" data-name="Email Form" method="post" class="form">
                     <input type="text" class="text-field w-input" maxlength="256" name="project-name"  placeholder="Project Name" id="project-name" required="">

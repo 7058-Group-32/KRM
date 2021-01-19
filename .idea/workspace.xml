@@ -22,7 +22,7 @@
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/form.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/form.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/history.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,14 +91,7 @@
       <workItem from="1610914230904" duration="63000" />
       <workItem from="1610978665528" duration="1695000" />
       <workItem from="1611060958175" duration="2406000" />
-      <workItem from="1611065444568" duration="1854000" />
-    </task>
-    <task id="LOCAL-00025" summary="In progress of creating registration form">
-      <created>1610578756817</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1610578756817</updated>
+      <workItem from="1611065444568" duration="3364000" />
     </task>
     <task id="LOCAL-00026" summary="In progress of creating registration form">
       <created>1610580249351</created>
@@ -436,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611063217202</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Changed history and form page in meeting">
+      <created>1611067341936</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1611067341937</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login and logout page complete!" />
     <MESSAGE value="Added feature that makes sure email has not already been used to register in the past" />
     <MESSAGE value="In process of adding a feature that makes sure email has not already been used to register in the past" />
     <MESSAGE value="editing form.phtml" />
@@ -480,7 +479,8 @@
     <MESSAGE value="Adjusted design and changed css" />
     <MESSAGE value="Added new css, js and image files" />
     <MESSAGE value="Added new history page, added users name in navbar. Added redirect to index page when user logs in" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new history page, added users name in navbar. Added redirect to index page when user logs in" />
+    <MESSAGE value="Changed history and form page in meeting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed history and form page in meeting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -536,11 +536,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611062289716" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611063270105">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611067345823">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611063270105" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611067345823" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

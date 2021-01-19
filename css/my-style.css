@@ -43,3 +43,11 @@
 {
     padding-bottom:50px;
 }
+
+#form-message
+{
+    padding-top:7px;
+    padding-bottom:7px;
+    max-width: 50%;
+    margin:auto;
+}

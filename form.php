@@ -40,6 +40,8 @@ $otherReq = $_POST['other-requirement'];
 $minBudgetRange = $_POST['min-budget-range'];
 $maxBudgetRange = $_POST['max-budget-range'];
 
+$view->message = null;
+
 if(isset($_SESSION["loggedin"]))
 {
     //$number = htmlentities($_POST['number']);
@@ -82,8 +84,8 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
     $to = 'l.whiteley1@edu.salford.ac.uk';
     
    //Checking deadline is valid
-    if(isset($deadline))
-    {
+    //if(isset($deadline))
+    //{
         //First checks that the deadline contains a "-"
         //if (str_contains($deadline, '-')) {
             //$expDeadline = explode("-",$deadline);
@@ -92,7 +94,9 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
                 //Then checks that the minbudget and maxbudget are valid
                 if(is_numeric($minBudgetRange) && is_numeric($maxBudgetRange) && $maxBudgetRange > $minBudgetRange){
                     //Message to say that the submission has been submitted
-                    echo '<div class="section"> <h3 class="heading-3" >Thank you, your submission has been received!</h3> </div>';
+
+                    $view->message = '<div class="text-block">Thank you, your submission has been received!</div>';
+                    //echo '<div class="section"> <h3 class="heading-3" >Thank you, your submission has been received!</h3> </div>';
                     //added to the database
                     $applicationData->addApplication($projectName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
 
@@ -110,13 +114,15 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
                     //Sends the mail
                     //mail($to,$subject,$message, $headers);
 
-                }else{
+                }
+                else{
 
-                    echo '<div class="section"> <h3 class="heading-3" >Budget is not valid!</h3> </div>';
+                    //echo '<div class="section"> <h3 class="heading-3" >Budget is not valid!</h3> </div>';
+                    $view->message = '<div class="text-block">Budget is not valid!</div>';
 
                 }
 
-            }
+            //}
     //else{
       //          echo '<div class="section"> <h3 class="heading-3" >Date is not valid!</h3> </div>';
 
