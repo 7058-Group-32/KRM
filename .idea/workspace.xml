@@ -90,14 +90,8 @@
       <workItem from="1610978665528" duration="1695000" />
       <workItem from="1611060958175" duration="2406000" />
       <workItem from="1611065444568" duration="3841000" />
-      <workItem from="1611069791641" duration="729000" />
-    </task>
-    <task id="LOCAL-00029" summary="Login and registration form">
-      <created>1610629225110</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1610629225110</updated>
+      <workItem from="1611069791641" duration="895000" />
+      <workItem from="1611070886206" duration="68000" />
     </task>
     <task id="LOCAL-00030" summary="Login and registration form">
       <created>1610629445475</created>
@@ -435,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611069869961</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Connect to js file in header">
+      <created>1611070586061</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1611070586062</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="editing login.php" />
     <MESSAGE value="editing register.php" />
     <MESSAGE value="Fetch user" />
     <MESSAGE value="Starting to edit history page" />
@@ -479,7 +479,8 @@
     <MESSAGE value="Fixed submission and error message on form.phtml" />
     <MESSAGE value="Fixed glitch on history.phtml" />
     <MESSAGE value="Added new svg image files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added new svg image files" />
+    <MESSAGE value="Connect to js file in header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Connect to js file in header" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -499,26 +500,26 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610737178553" />
-    <state width="1475" height="298" key="GridCell.Tab.0.bottom" timestamp="1611069320479">
+    <state width="1461" height="292" key="GridCell.Tab.0.bottom" timestamp="1611070695914">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1475" height="298" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611069320479" />
-    <state width="1475" height="298" key="GridCell.Tab.0.center" timestamp="1611069320478">
+    <state width="1461" height="292" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611070695914" />
+    <state width="1461" height="292" key="GridCell.Tab.0.center" timestamp="1611070695913">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1475" height="298" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611069320478" />
-    <state width="1475" height="298" key="GridCell.Tab.0.left" timestamp="1611069320478">
+    <state width="1461" height="292" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611070695913" />
+    <state width="1461" height="292" key="GridCell.Tab.0.left" timestamp="1611070695912">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1475" height="298" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611069320478" />
-    <state width="1475" height="298" key="GridCell.Tab.0.right" timestamp="1611069320479">
+    <state width="1461" height="292" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611070695912" />
+    <state width="1461" height="292" key="GridCell.Tab.0.right" timestamp="1611070695913">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1475" height="298" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611069320479" />
+    <state width="1461" height="292" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611070695913" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -535,11 +536,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611062289716" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611069872011">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611070588258">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611069872011" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611070588258" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
