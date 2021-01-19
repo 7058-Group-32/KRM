@@ -77,30 +77,53 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
         str_replace('"','\"',$shortDescription);
     }*/
     
-    echo $projectName.  $shortDescription. $minBudgetRange. $maxBudgetRange. $deadline. $otherReq . $id;
-    //$view->applicationDataSet = $applicationDataSet->addApplication($projectName, $customerName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
-    $applicationData->addApplication($projectName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
-
-
     //Recipient of the email
     $to = 'l.whiteley1@edu.salford.ac.uk';
-
-    //Subject of the email
-    $subject = $projectName;
-
-    //The body of the message
-    $message = '<p><b> Project Name:'. $projectName .'</b></p> <p> Customer Name:'.$customerName.'</p> <p> Deadline: '. $deadline . '</p> <p> Budget Range: '. $minBudgetRange . ' - '. $maxBudgetRange .'</p> <p> Short Description: '. $shortDescription .'</p> <p> Other Requirements: ' . $otherReq . '</p> <p> <b>Contact Information: </b></p> Customer Name: <p>'. $customerName.'</p> <p> Email: '. $email . '</p> <p> Phone Number: '. $number . '</p> <p> Email: '. $email . '</p>';
-
-    //Headers of the message
-    $headers = "From: " . $customerName . "<".$email.">\r\n";
-    $headers .=  "Reply-To: " . $customerName . "<".$email.">\r\n";
-    $headers .="Content-type: text/html\r\n";
-
-    //Sends the mail
-    //mail($to,$subject,$message, $headers);
     
-    //Prints out a statement telling the user that their submission has been recieved
-     echo '<div class="section"> <h3 class="heading-3" >Thank you, your submission has been received!</h3> </div>';
+   //Checking deadline is valid
+    if(isset($deadline))
+    {
+        //First checks that the deadline contains a "-"
+        if (str_contains($deadline, '-')) {
+            $expDeadline = explode("-",$deadline);
+            //Then checks that the date is a real date
+            if(checkdate((int) $expDeadline[1],(int) $expDeadline[2],(int) $expDeadline[0]) == true ){
+                //Then checks that the minbudget and maxbudget are valid
+                if(is_numeric($minBudgetRange) && is_numeric($maxBudgetRange) && $maxBudgetRange > $minBudgetRange){
+                    //Message to say that the submission has been submitted
+                    echo '<div class="section"> <h3 class="heading-3" >Thank you, your submission has been received!</h3> </div>';
+                    //added to the database
+                    $applicationData->addApplication($projectName, $shortDescription, $minBudgetRange, $maxBudgetRange, $deadline, $otherReq, $id);
+
+                    //Subject of the email
+                    $subject = $projectName;
+
+                    //The body of the message
+                    $message = '<p><b> Project Name:'. $projectName .'</b></p> <p> Customer Name:'.$customerName.'</p> <p> Deadline: '. $deadline . '</p> <p> Budget Range: '. $minBudgetRange . ' - '. $maxBudgetRange .'</p> <p> Short Description: '. $shortDescription .'</p> <p> Other Requirements: ' . $otherReq . '</p> <p> <b>Contact Information: </b></p> Customer Name: <p>'. $customerName.'</p> <p> Email: '. $email . '</p> <p> Phone Number: '. $number . '</p> <p> Email: '. $email . '</p>';
+
+                    //Headers of the message
+                    $headers = "From: " . $customerName . "<".$email.">\r\n";
+                    $headers .=  "Reply-To: " . $customerName . "<".$email.">\r\n";
+                    $headers .="Content-type: text/html\r\n";
+
+                    //Sends the mail
+                    //mail($to,$subject,$message, $headers);
+
+                }else{
+                    echo '<div class="section"> <h3 class="heading-3" >Budget is not valid!</h3> </div>';
+
+                }
+
+            }else{
+                echo '<div class="section"> <h3 class="heading-3" >Date is not valid!</h3> </div>';
+
+            }
+        } else{
+            echo'<div class="section"> <h3 class="heading-3" >Date must be in YYYY-MM-DD format</h3> </div>';
+        }
+
+
+    }
 
 }
 else{
