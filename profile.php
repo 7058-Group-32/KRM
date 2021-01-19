@@ -20,7 +20,10 @@ $view->address = $_SESSION["add"];
 if(isset($_POST['delete']))
 {
     $userData->deleteUser($id);
-    $_SESSION["deleted"] = true;
+    unset($_SESSION["loggedin"]);
+    unset($_SESSION["userid"]);
+    header("Location: index.php");
+    session_destroy();
 }
 
 if(isset($_POST['save']))
