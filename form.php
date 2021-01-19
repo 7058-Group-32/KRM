@@ -112,7 +112,7 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
                     $headers .="Content-type: text/html\r\n";
 
                     //Sends the mail
-                    //mail($to,$subject,$message, $headers);
+                    mail($to,$subject,$message, $headers);
 
                 }
                 else{
