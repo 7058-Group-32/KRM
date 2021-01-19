@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +90,8 @@
       <workItem from="1611070886206" duration="130000" />
       <workItem from="1611071524307" duration="165000" />
       <workItem from="1611073665873" duration="96000" />
-      <workItem from="1611082650203" duration="7637000" />
-    </task>
-    <task id="LOCAL-00037" summary="Implementing new css and html by SeyedMahdi. Index page and navbar implemented.">
-      <created>1610656942021</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1610656942021</updated>
+      <workItem from="1611082650203" duration="7786000" />
+      <workItem from="1611090652748" duration="1253000" />
     </task>
     <task id="LOCAL-00038" summary="Implementing new css and html by SeyedMahdi. Added history page (yet to be constructed)">
       <created>1610657185742</created>
@@ -435,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611090050638</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="Implemented ability for user to delete their profile.">
+      <created>1611090479060</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1611090479060</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +455,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding the table to take user from the Application database and put into a good format on history.phtml" />
     <MESSAGE value="History page is working. Now working on application sumbition" />
     <MESSAGE value="Application Database now working when user submits a Application" />
     <MESSAGE value="Improving layout of history.phtml" />
@@ -479,7 +479,8 @@
     <MESSAGE value="Implementing profile page" />
     <MESSAGE value="Implementing profile page. Adding php" />
     <MESSAGE value="Implementing profile page. Php added and working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing profile page. Php added and working" />
+    <MESSAGE value="Implemented ability for user to delete their profile." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented ability for user to delete their profile." />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -499,26 +500,26 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1610737178553" />
-    <state width="1461" height="292" key="GridCell.Tab.0.bottom" timestamp="1611084917949">
+    <state width="730" height="292" key="GridCell.Tab.0.bottom" timestamp="1611090508350">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611084917949" />
-    <state width="1461" height="292" key="GridCell.Tab.0.center" timestamp="1611084917948">
+    <state width="730" height="292" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611090508350" />
+    <state width="730" height="292" key="GridCell.Tab.0.center" timestamp="1611090508349">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611084917948" />
-    <state width="1461" height="292" key="GridCell.Tab.0.left" timestamp="1611084917947">
+    <state width="730" height="292" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611090508349" />
+    <state width="730" height="292" key="GridCell.Tab.0.left" timestamp="1611090508349">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611084917947" />
-    <state width="1461" height="292" key="GridCell.Tab.0.right" timestamp="1611084917949">
+    <state width="730" height="292" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611090508349" />
+    <state width="730" height="292" key="GridCell.Tab.0.right" timestamp="1611090508349">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="292" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611084917949" />
+    <state width="730" height="292" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611090508349" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -535,11 +536,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611090057092">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611090481560">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611090057092" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611090481560" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
