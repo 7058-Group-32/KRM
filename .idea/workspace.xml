@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/history.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/template/header.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/template/header.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +90,7 @@
       <workItem from="1610978665528" duration="1695000" />
       <workItem from="1611060958175" duration="2406000" />
       <workItem from="1611065444568" duration="3841000" />
-      <workItem from="1611069791641" duration="49000" />
-    </task>
-    <task id="LOCAL-00028" summary="In progress of creating registration form">
-      <created>1610583798698</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1610583798698</updated>
+      <workItem from="1611069791641" duration="729000" />
     </task>
     <task id="LOCAL-00029" summary="Login and registration form">
       <created>1610629225110</created>
@@ -435,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611069192766</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Added new svg image files">
+      <created>1611069869960</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1611069869961</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,7 +454,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="editing form.phtml" />
     <MESSAGE value="editing login.php" />
     <MESSAGE value="editing register.php" />
     <MESSAGE value="Fetch user" />
@@ -479,7 +478,8 @@
     <MESSAGE value="Changed history and form page in meeting" />
     <MESSAGE value="Fixed submission and error message on form.phtml" />
     <MESSAGE value="Fixed glitch on history.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed glitch on history.phtml" />
+    <MESSAGE value="Added new svg image files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new svg image files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -535,11 +535,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611062289716" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611069194339">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611069872011">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611069194339" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611069872011" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1610747965953">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
