@@ -99,8 +99,8 @@ if (isset($_POST['submit']) || $_POST['project-name'] || $_POST['deadline'] || $
     //Sends the mail
     //mail($to,$subject,$message, $headers);
     
-    //min and max have been given the placeholder value of budgetRange
-    //no way to get userID currently
+    //Prints out a statement telling the user that their submission has been recieved
+     echo '<div class="section"> <h3 class="heading-3" >Thank you, your submission has been received!</h3> </div>';
 
 }
 else{
