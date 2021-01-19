@@ -20,7 +20,7 @@
                     <div class="text-block-10" id="profile-text">Change your phone number. Your current phone number: <?php echo $view->address; ?></div>
                     <input type="tel" class="text-field-5 w-input" maxlength="256" name="userInfo-phone" data-name="userInfo-phone" placeholder="New Phone Number" id="userInfo-phone">
 
-                    <div class="text-block-10" id="profile-text">Change your address. Your current name: <?php echo $view->phone; ?></div>
+                    <div class="text-block-10" id="profile-text">Change your address. Your current address: <?php echo $view->phoneNo; ?></div>
                     <input type="text" class="text-field-6 w-input" maxlength="256" name="userInfo-ad1" data-name="userInfo-ad1" placeholder="New Address Line 1" id="userInfo-ad">
                     <input type="text" class="text-field-7 w-input" maxlength="256" name="userInfo-ad2" data-name="userInfo-ad2" placeholder="New Address Line 2" id="userInfo-ad-2">
                     <input type="text" class="text-field-8 w-input" maxlength="256" name="userInfo-postcode" data-name="userInfo-postcode" placeholder="New Post/Zipcode" id="userInfo-postcode">
@@ -30,17 +30,13 @@
                     <input type="password" class="text-field-7 w-input" maxlength="256" name="userInfo-pass1" data-name="userInfo-pass1" placeholder="New Password" id="userInfo-pass">
                     <input type="password" class="text-field-8 w-input" maxlength="256" name="userInfo-pass2" data-name="userInfo-pass2" placeholder="Confirm New Password" id="userInfo-pass">
                     <div class="div-block-40">
-                        <input type="submit" name="delete" value="Delete Your Account" data-wait="Please wait..." class="link-6">
                         <!--<a href="#" class="link-6">Delete Your Account</a>-->
                         <input type="submit" name="save" value="Save" data-wait="Please wait..." class="submit-button-2 uf-mobile-view w-button">
+                        <input type="submit" name="delete" value="Delete Your Account" data-wait="Please wait..." class="link-6">
+
                     </div>
                 </form>
-                <div class="w-form-done">
-                    <div>Thank you! Your submission has been received!</div>
-                </div>
-                <div class="w-form-fail">
-                    <div>Oops! Something went wrong while submitting the form.</div>
-                </div>
+                <?php echo '<div class="error-message" ><div class="text-block">'.$view->profileError.'</div></div>';?>
             </div>
         </div>
     </div>

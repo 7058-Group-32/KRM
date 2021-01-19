@@ -135,4 +135,25 @@ class UserDataSet
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();
     }
+
+    public function changeNumber($id, $newNumber)
+    {
+        $sqlQuery = "UPDATE Users SET Phone = '" . $newNumber . "' WHERE UserID = ".$id ;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+    }
+
+    public function changeAddress($id, $newAddress)
+    {
+        $sqlQuery = "UPDATE Users SET Address = '" . $newAddress . "' WHERE UserID = ".$id ;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+    }
+
+    public function changePassword($id, $newPassword)
+    {
+        $sqlQuery = "UPDATE Users SET Password = '" . $newPassword . "' WHERE UserID = ".$id ;
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+    }
 }
