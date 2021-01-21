@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,13 +98,7 @@
       <workItem from="1611152020791" duration="587000" />
       <workItem from="1611188341654" duration="601000" />
       <workItem from="1611236915784" duration="1548000" />
-    </task>
-    <task id="LOCAL-00042" summary="Login page is now completed">
-      <created>1610660234748</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1610660234748</updated>
+      <workItem from="1611244769926" duration="141000" />
     </task>
     <task id="LOCAL-00043" summary="Improved navigation bar so when user is logged in, it will say 'logout'">
       <created>1610660749370</created>
@@ -444,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611238016111</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Improved layout of profile.phtml">
+      <created>1611244875827</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1611244875828</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed notes at top of form.phtml" />
     <MESSAGE value="Added a check to make sure user registers with a secure password" />
     <MESSAGE value="Improved layout of code" />
     <MESSAGE value="Implemented new footer" />
@@ -489,7 +487,8 @@
     <MESSAGE value="Implementation of profile page complete" />
     <MESSAGE value="added profile svg" />
     <MESSAGE value="Changed layout of profile.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed layout of profile.phtml" />
+    <MESSAGE value="Improved layout of profile.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved layout of profile.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
@@ -545,11 +544,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611238027423">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611244879132">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611238027423" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611244879132" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
