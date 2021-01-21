@@ -1,5 +1,7 @@
 <?php require('template/header.phtml') ?>
 
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+
 <div class="contact-div">
     <div class="wrapper">
         <div class="div-block-29">
@@ -35,10 +37,17 @@
                     <h4 class="heading-9">Send us a Message</h4>
                     <div class="div-block-35">
                         <div class="form-block login w-form">
-                            <form id="email-form" name="email-form" data-name="Email Form" class="form">
-                                <div class="logindiv contactdiv"><input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-name" data-name="contact-name" placeholder="Name*" id="contact-name" required=""><input type="tel" class="text-field login-texfield contact w-input" maxlength="256" name="contact-phone" data-name="contact-phone" placeholder="Phone Number*" id="contact-phone" required=""><input type="email" class="text-field login-texfield contact w-input" maxlength="256" name="contact-email" data-name="contact-email" placeholder="Email*" id="contact-email" required=""><input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-subject" data-name="contact-subject" placeholder="Subject*" id="contact-subject" required=""><input type="password" class="text-field login-texfield contact w-input" maxlength="256" name="contact-topic" data-name="contact-topic" placeholder="Topic*" id="contact-topic" required=""><textarea placeholder="Message*" maxlength="5000" id="contact-message" name="contact-message" data-name="contact-message" class="textarea w-input"></textarea></div><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button ghost-btn contact-submit w-button">
+                            <form id="email-form" name="email-form" data-name="Email Form" class="form"  method="post">
+                                <div class="logindiv contactdiv">
+                                    <input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-name" data-name="contact-name" placeholder="Name*" id="contact-name" required="">
+                                    <input type="tel" class="text-field login-texfield contact w-input" maxlength="256" name="contact-phone" data-name="contact-phone" placeholder="Phone Number*" id="contact-phone" required="">
+                                    <input type="email" class="text-field login-texfield contact w-input" maxlength="256" name="contact-email" data-name="contact-email" placeholder="Email*" id="contact-email" required="">
+                                    <input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-subject" data-name="contact-subject" placeholder="Subject*" id="contact-subject" required="">
+                                    <input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-topic" data-name="contact-topic" placeholder="Topic*" id="contact-topic" required="">
+                                    <textarea placeholder="Message*" maxlength="5000" id="contact-message" name="contact-message" data-name="contact-message" class="textarea w-input"></textarea></div>
+                                <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button ghost-btn contact-submit w-button">
                                 <div>
-                                    <div class="text-block">Oops! Something went wrong!</div>
+                                    //<div class="text-block">Oops! Something went wrong!</div>
                                 </div>
                             </form>
                             <div class="w-form-done">
@@ -54,4 +63,6 @@
         </div>
     </div>
 </div>
+</form>
+
 <?php require('template/footer.phtml') ?>
