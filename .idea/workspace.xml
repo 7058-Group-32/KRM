@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change beforePath="$PROJECT_DIR$/Views/profile.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,14 +99,7 @@
       <workItem from="1611092611510" duration="10000" />
       <workItem from="1611152020791" duration="587000" />
       <workItem from="1611188341654" duration="601000" />
-      <workItem from="1611236915784" duration="1078000" />
-    </task>
-    <task id="LOCAL-00041" summary="Implementing new css and html by SeyedMahdi. Adding new code to form.phtml">
-      <created>1610658318869</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1610658318869</updated>
+      <workItem from="1611236915784" duration="1548000" />
     </task>
     <task id="LOCAL-00042" summary="Login page is now completed">
       <created>1610660234748</created>
@@ -444,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611237784529</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Changed layout of profile.phtml">
+      <created>1611238016111</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1611238016111</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,26 +509,26 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1611190257511" />
-    <state width="730" height="289" key="GridCell.Tab.0.bottom" timestamp="1611237541934">
+    <state width="730" height="289" key="GridCell.Tab.0.bottom" timestamp="1611238475150">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611237541934" />
-    <state width="730" height="289" key="GridCell.Tab.0.center" timestamp="1611237541934">
+    <state width="730" height="289" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611238475150" />
+    <state width="730" height="289" key="GridCell.Tab.0.center" timestamp="1611238475150">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611237541934" />
-    <state width="730" height="289" key="GridCell.Tab.0.left" timestamp="1611237541934">
+    <state width="730" height="289" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611238475150" />
+    <state width="730" height="289" key="GridCell.Tab.0.left" timestamp="1611238475135">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611237541934" />
-    <state width="730" height="289" key="GridCell.Tab.0.right" timestamp="1611237541934">
+    <state width="730" height="289" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611238475135" />
+    <state width="730" height="289" key="GridCell.Tab.0.right" timestamp="1611238475150">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611237541934" />
+    <state width="730" height="289" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611238475150" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -545,11 +545,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611237786235">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611238027423">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611237786235" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611238027423" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
