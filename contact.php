@@ -31,7 +31,7 @@ $contactMessage = $_POST['contact-message'];
 }*/
 
 //Sends the email
-if(isset($_POST['Submit'])){
+if(isset($_POST['submit'])){
 
     //Recipient of the email
     $to = 'l.whiteley1@edu.salford.ac.uk';
