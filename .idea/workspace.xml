@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ApplicationDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/ApplicationDataSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/history.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/history.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/profile.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/history.php" beforeDir="false" afterPath="$PROJECT_DIR$/history.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +58,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AuctionsWebsite" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -73,7 +76,7 @@
       <recent name="C:\Users\Matt\PhpstormProjects\KRM-2\Views" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.Unnamed">
+  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
     <configuration name="Unnamed" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" nameIsGenerated="true">
       <CommandLine>
         <PhpTestInterpreterSettings>
@@ -133,14 +136,7 @@
       <workItem from="1611262393709" duration="632000" />
       <workItem from="1611263772031" duration="615000" />
       <workItem from="1611270371081" duration="1960000" />
-      <workItem from="1611328747350" duration="138000" />
-    </task>
-    <task id="LOCAL-00044" summary="Login and logout page complete!">
-      <created>1610662302213</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1610662302213</updated>
+      <workItem from="1611328747350" duration="1299000" />
     </task>
     <task id="LOCAL-00045" summary="Added feature that makes sure email has not already been used to register in the past">
       <created>1610711829267</created>
@@ -478,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611246429689</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Changed layout of profile.phtml">
+      <created>1611328938711</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1611328938712</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,10 +523,10 @@
     <MESSAGE value="Implemented ability for user to delete their profile." />
     <MESSAGE value="Implementation of profile page complete" />
     <MESSAGE value="added profile svg" />
-    <MESSAGE value="Changed layout of profile.phtml" />
     <MESSAGE value="Improved layout of profile.phtml" />
     <MESSAGE value="Added note that other requirements are optional on form.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added note that other requirements are optional on form.phtml" />
+    <MESSAGE value="Changed layout of profile.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed layout of profile.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -543,30 +546,30 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1610628641264" />
-    <state x="801" y="336" key="FileChooserDialogImpl" timestamp="1611271411543">
+    <state x="801" y="336" key="FileChooserDialogImpl" timestamp="1611329961079">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="801" y="336" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1611271411543" />
-    <state width="730" height="347" key="GridCell.Tab.0.bottom" timestamp="1611272752876">
+    <state x="801" y="336" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1611329961079" />
+    <state width="1461" height="347" key="GridCell.Tab.0.bottom" timestamp="1611330190198">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="347" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611272752876" />
-    <state width="730" height="347" key="GridCell.Tab.0.center" timestamp="1611272752875">
+    <state width="1461" height="347" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611330190198" />
+    <state width="1461" height="347" key="GridCell.Tab.0.center" timestamp="1611330190197">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="347" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611272752875" />
-    <state width="730" height="347" key="GridCell.Tab.0.left" timestamp="1611272752875">
+    <state width="1461" height="347" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611330190197" />
+    <state width="1461" height="347" key="GridCell.Tab.0.left" timestamp="1611330190197">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="347" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611272752875" />
-    <state width="730" height="347" key="GridCell.Tab.0.right" timestamp="1611272752876">
+    <state width="1461" height="347" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611330190197" />
+    <state width="1461" height="347" key="GridCell.Tab.0.right" timestamp="1611330190197">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="347" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611272752876" />
+    <state width="1461" height="347" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611330190197" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -587,11 +590,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611246431366">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611328940820">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611246431366" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611328940820" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

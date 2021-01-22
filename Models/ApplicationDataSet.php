@@ -48,4 +48,19 @@ class ApplicationDataSet
         }
         return $dataSet;
     }
+
+    public function fetchSortedUserApplications($userId)
+    {
+        $sqlQuery = 'SELECT * FROM Application WHERE UserID=' . $userId . ' ORDER BY ProjectName';
+
+        $statement = $this->_dbHandle->prepare($sqlQuery);
+        $statement->execute();
+
+        $dataSet = [];
+        while ($row = $statement->fetch()) {
+            $app = new Application($row);
+            $dataSet[] = $app;
+        }
+        return $dataSet;
+    }
 }

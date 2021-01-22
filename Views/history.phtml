@@ -2,7 +2,7 @@
 
 <body class="body-4">
 
-
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
 <div class="history-section">
     <div class="history-block">
@@ -13,6 +13,9 @@
             $count=1;
             echo'<div class="text-block-2">You can see your history of projects here.</div>
                 </div>
+                <form>
+                    <input type="submit" name="order" value="Order A-Z" data-wait="Please wait..." class="submit-button-2 uf-mobile-view w-button">
+                </form>
                 <div class="card-wrapper mobile-view-card-wrapper">';
 
 
