@@ -18,6 +18,7 @@ unset($_SESSION["deleted"]);
 
 if (isset($_POST["forgot"]))
 {
+    $email = $_POST['email'];
     $to = htmlentities($_POST['email']);
     $code = rand ( 1000 , 9999 );
     $message = '<p>You reset code is '.$code.'</p>';
@@ -31,6 +32,7 @@ if (isset($_POST["change"]))
     $newPassword1 = htmlentities($_POST['passwordR1']);
     $newPassword2 = htmlentities($_POST['passwordR2']);
     $userCode = htmlentities($_POST['reset-code']);
+    $id = $userData->fetchId($email);
     if ($userCode = $code) {
 
 

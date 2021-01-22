@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,14 +134,8 @@
       <workItem from="1611263772031" duration="615000" />
       <workItem from="1611270371081" duration="1960000" />
       <workItem from="1611328747350" duration="3420000" />
-      <workItem from="1611332815528" duration="30000" />
-    </task>
-    <task id="LOCAL-00048" summary="editing form.phtml">
-      <created>1610715791452</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1610715791452</updated>
+      <workItem from="1611332815528" duration="83000" />
+      <workItem from="1611332970253" duration="200000" />
     </task>
     <task id="LOCAL-00049" summary="editing login.php">
       <created>1610715946776</created>
@@ -479,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611332484294</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="changed layout of login.phtml">
+      <created>1611332866449</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1611332866450</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="..." />
     <MESSAGE value="Commented out if str contains" />
     <MESSAGE value="Adjusted design and changed css" />
     <MESSAGE value="Added new css, js and image files" />
@@ -524,7 +524,8 @@
     <MESSAGE value="Added button in history.phtml where user can order their projects from a-z" />
     <MESSAGE value="improved layout of profile.phtml" />
     <MESSAGE value="Added password forget feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added password forget feature" />
+    <MESSAGE value="changed layout of login.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed layout of login.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -588,11 +589,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611332486738">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611332868409">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611332486738" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611332868409" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
