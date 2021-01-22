@@ -135,14 +135,9 @@
       <workItem from="1611270371081" duration="1960000" />
       <workItem from="1611328747350" duration="3420000" />
       <workItem from="1611332815528" duration="83000" />
-      <workItem from="1611332970253" duration="200000" />
-    </task>
-    <task id="LOCAL-00049" summary="editing login.php">
-      <created>1610715946776</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1610715946776</updated>
+      <workItem from="1611332970253" duration="226000" />
+      <workItem from="1611333460637" duration="17000" />
+      <workItem from="1611333586116" duration="128000" />
     </task>
     <task id="LOCAL-00050" summary="editing register.php">
       <created>1610719153982</created>
@@ -480,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611332866450</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="reset page">
+      <created>1611333184672</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1611333184672</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Commented out if str contains" />
     <MESSAGE value="Adjusted design and changed css" />
     <MESSAGE value="Added new css, js and image files" />
     <MESSAGE value="Added new history page, added users name in navbar. Added redirect to index page when user logs in" />
@@ -525,7 +526,8 @@
     <MESSAGE value="improved layout of profile.phtml" />
     <MESSAGE value="Added password forget feature" />
     <MESSAGE value="changed layout of login.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed layout of login.phtml" />
+    <MESSAGE value="reset page" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -589,11 +591,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611332868409">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611333187311">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611332868409" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611333187311" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

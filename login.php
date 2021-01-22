@@ -18,9 +18,10 @@ unset($_SESSION["deleted"]);
 
 if (isset($_POST["forgot"]))
 {
-    $email = $_POST['email'];
+    $_SESSION['email1'] = $_POST['email'];
     $to = htmlentities($_POST['email']);
-    $code = rand ( 1000 , 9999 );
+    $_SESSION['code1'] = rand ( 1000 , 9999 );
+    $code = $_SESSION['code1'];
     $message = '<p>You reset code is '.$code.'</p>';
     $subject = "KRM Password reset code";
     $headers= "From: KRM";
@@ -32,7 +33,7 @@ if (isset($_POST["change"]))
     $newPassword1 = htmlentities($_POST['passwordR1']);
     $newPassword2 = htmlentities($_POST['passwordR2']);
     $userCode = htmlentities($_POST['reset-code']);
-    $id = $userData->fetchId($email);
+    $id = $userData->fetchId($_SESSION['email1'] );
     if ($userCode = $code) {
 
 
