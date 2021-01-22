@@ -61,7 +61,41 @@ if(isset($_SESSION["loggedin"]))
     }
 
 else {
-    echo '
+
+    if(isset($_POST["forgot"]))
+    {
+        echo'<div class="form-container" >
+        <div class="section login-section" >
+            <div class="login-divblock" >
+                <div class="left-divblock" ></div >
+                <div class="right-divblock" >
+                <h1 class="heading" > A password reset code has been sent to your email</h1 >
+                    <div class="form-block login w-form" >
+                            <form id = "email-form" name = "email-form" data - name = "Email Form" class="form" >
+                            
+                                <input type="text" class="text-field login-texfield w-input" maxlength="256" name="reset-code"  placeholder="Password Reset Code" id="address-2" required="">
+
+                                <input type="password" class="text-field login-texfield w-input" maxlength="256" name="passwordR1" placeholder="Password" id="password" required="">
+                                <input type="password" class="text-field login-texfield w-input" maxlength="256" name="passwordR2"  placeholder="Confirm Password" id="confirm-password" required="">
+
+                                <input type="submit" name="change" value="Change Password" data-wait="Please wait..." class="submit-button ghost-btn w-button">
+
+                            </form>';
+
+         echo '<div class="error-message" ><div class="text-block">'.$view->resetError.'</div></div>
+                            
+
+                        </div >
+                </div >
+            </div >
+        </div >
+    </div >';
+
+    }
+
+    else {
+
+        echo '
     <body class="login-body" >
 
     <div class="form-container" >
@@ -74,16 +108,16 @@ else {
                         <form id = "email-form" name = "email-form" data - name = "Email Form" class="form" >
                             <div class="logindiv" >
                                 <input type = "email" class="text-field login-texfield email-textfield w-input" maxlength = "256" name = "email" placeholder = "Email" id = "email-3" required = "" >
-                                <input type = "password" class="text-field login-texfield w-input" maxlength = "256" name = "password" placeholder = "Password" id = "password" required = "" >
-                                <a href = "#" class="link-2" > Forgot Password ?</a >
+                                <input type = "password" class="text-field login-texfield w-input" maxlength = "256" name = "password" placeholder = "Password" id = "password" >
+                                <input type = "submit" name = "forgot" value = "Forgot Password?" data - wait = "Please wait..." class="link-2" id = "forgot-button">
                             </div >
-                            <input type = "submit" name = "login" value = "Log In" data - wait = "Please wait..." class="submit-button ghost-btn w-button" >
+                                <input type = "submit" name = "login" value = "Log In" data - wait = "Please wait..." class="submit-button ghost-btn w-button" >
                             <div class="register-text-div" >
                                 <label class="field-label-2" > Doesn &#x27;t Have Account? </label>
                                 <a href = "register.php" class="register-link-text" > Register</a >
                             </div >
                             <div>
-                                <div class="text-block">'.$view->loggedin.'</div>
+                                <div class="text-block">' . $view->loggedin . '</div>
                             </div>
                         </form >
                         
@@ -93,6 +127,7 @@ else {
         </div >
     </div >';
     }
+}
 
     ?>
 

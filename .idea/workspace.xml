@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/profile.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/my-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/my-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,14 +135,7 @@
       <workItem from="1611262393709" duration="632000" />
       <workItem from="1611263772031" duration="615000" />
       <workItem from="1611270371081" duration="1960000" />
-      <workItem from="1611328747350" duration="1465000" />
-    </task>
-    <task id="LOCAL-00046" summary="In process of adding a feature that makes sure email has not already been used to register in the past">
-      <created>1610712606028</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1610712606028</updated>
+      <workItem from="1611328747350" duration="3375000" />
     </task>
     <task id="LOCAL-00047" summary="editing form.phtml">
       <created>1610712767004</created>
@@ -478,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611330430827</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="improved layout of profile.phtml">
+      <created>1611330565978</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1611330565978</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Implemented new footer" />
     <MESSAGE value="Removed random echo in login.php" />
     <MESSAGE value="..." />
     <MESSAGE value="Commented out if str contains" />
@@ -523,7 +524,8 @@
     <MESSAGE value="Added note that other requirements are optional on form.phtml" />
     <MESSAGE value="Changed layout of profile.phtml" />
     <MESSAGE value="Added button in history.phtml where user can order their projects from a-z" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added button in history.phtml where user can order their projects from a-z" />
+    <MESSAGE value="improved layout of profile.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="improved layout of profile.phtml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -587,11 +589,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611330433746">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611330567137">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611330433746" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611330567137" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

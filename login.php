@@ -9,8 +9,57 @@ $userData= new UserDataSet();
 
 $view->loggedin = "";
 
+$view->resetError = null;
+
+$view->resetErrorTemplate = '<div class="text-block">'.$view->resetError.'</div>';
+
 unset($_SESSION["registered"]);
 unset($_SESSION["deleted"]);
+
+if (isset($_POST["forgot"]))
+{
+    $to = htmlentities($_POST['email']);
+    $code = rand ( 1000 , 9999 );
+    $message = '<p>You reset code is '.$code.'</p>';
+    $subject = "KRM Password reset code";
+    $headers= "From: KRM";
+    mail($to,$subject,$message, $headers);
+}
+
+if (isset($_POST["change"]))
+{
+    $newPassword1 = htmlentities($_POST['passwordR1']);
+    $newPassword2 = htmlentities($_POST['passwordR2']);
+    $userCode = htmlentities($_POST['reset-code']);
+    if ($userCode = $code) {
+
+
+        if ($newPassword1 == $newPassword2) {
+            $password = $newPassword1;
+
+            // Validate password strength
+            $uppercase = preg_match('@[A-Z]@', $password);
+            $lowercase = preg_match('@[a-z]@', $password);
+            $number = preg_match('@[0-9]@', $password);
+            $specialChars = preg_match('@[^\w]@', $password);
+
+            if (!$uppercase || !$lowercase || !$number || !$specialChars || strlen($password) < 8) {
+                $view->profileError = 'Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.';
+
+            } else {
+                $encryptedPass = password_hash($password, PASSWORD_DEFAULT);
+                $userData->changePassword($id, $encryptedPass);
+                $view->resetError = "Thank You! Your password has been changed!";
+            }
+        } else {
+            $view->resetError = "Oops! Your passwords do not match!";
+        }
+    }
+
+    else{
+        $view->resetError = "Oops! Your reset code is incorrect!";
+    }
+}
 
 if (isset($_POST["login"])) {
     $userPass = htmlentities($_POST['password']);
