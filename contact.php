@@ -21,6 +21,10 @@ $contactSubject = $_POST['contact-subject'];
 $contactTopic = $_POST['contact-topic'];
 $contactMessage = $_POST['contact-message'];
 
+//Sets confirmation message to null
+$view->message = null;
+
+
 //print_r($_POST);
 
 
@@ -49,6 +53,10 @@ if(isset($_POST['submit'])){
 
     //Sends the mail
     mail($to,$subject,$message, $headers);
+    
+    //Outputs a message so the user knows their email has been sent
+    $view->message = '<div class="text-block">Thank you, your submission has been received!</div>';
+    
 }
 
 
