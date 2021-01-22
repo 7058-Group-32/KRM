@@ -5,6 +5,7 @@ $view->pageTitle = 'Login';
 
 
 $userData= new UserDataSet();
+//creates new UserDataSet class
 
 $view->loggedin = "";
 
@@ -16,6 +17,7 @@ if (isset($_POST["login"])) {
     $userEmail = htmlentities($_POST['email']);
     $verify = password_verify($userPass, $userData->fetchPassword($userEmail));
     // login button was pressed create a session
+	// checks to see if password matches
     if ($verify==1)
     {
         $_SESSION["loggedin"] = true;
