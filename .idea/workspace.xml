@@ -19,17 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!" />
+    <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/profile.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/profile.phtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1n0q63P2O9ErP99Vsw7S1Ud5yZw" />
@@ -45,9 +54,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bakestone Motors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -58,10 +73,23 @@
       <recent name="C:\Users\Matt\PhpstormProjects\KRM-2\Views" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.Unnamed">
+    <configuration name="Unnamed" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" nameIsGenerated="true">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <TestRunner configuration_file="$USER_HOME$/Documents/phpunittest/phpunit.xml" directory="$USER_HOME$/Documents/phpunittest/vendor/" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" nameIsGenerated="true" document_root="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="PHP Built-in Web Server.Unnamed" />
+      <item itemvalue="PHPUnit.Unnamed" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,13 +127,13 @@
       <workItem from="1611188341654" duration="601000" />
       <workItem from="1611236915784" duration="1548000" />
       <workItem from="1611244769926" duration="141000" />
-    </task>
-    <task id="LOCAL-00043" summary="Improved navigation bar so when user is logged in, it will say 'logout'">
-      <created>1610660749370</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1610660749370</updated>
+      <workItem from="1611246375474" duration="80000" />
+      <workItem from="1611246511846" duration="28000" />
+      <workItem from="1611262313191" duration="22000" />
+      <workItem from="1611262393709" duration="632000" />
+      <workItem from="1611263772031" duration="615000" />
+      <workItem from="1611270371081" duration="1960000" />
+      <workItem from="1611328747350" duration="138000" />
     </task>
     <task id="LOCAL-00044" summary="Login and logout page complete!">
       <created>1610662302213</created>
@@ -443,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611244875828</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="Added note that other requirements are optional on form.phtml">
+      <created>1611246429689</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1611246429689</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added a check to make sure user registers with a secure password" />
     <MESSAGE value="Improved layout of code" />
     <MESSAGE value="Implemented new footer" />
     <MESSAGE value="Removed random echo in login.php" />
@@ -488,46 +522,51 @@
     <MESSAGE value="added profile svg" />
     <MESSAGE value="Changed layout of profile.phtml" />
     <MESSAGE value="Improved layout of profile.phtml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved layout of profile.phtml" />
+    <MESSAGE value="Added note that other requirements are optional on form.phtml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added note that other requirements are optional on form.phtml" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="333" y="137" key="#CLI_Interpreters/0.0.1504.963@0.0.1504.963" timestamp="1611270942372" />
     <state x="2759" y="198" key="#PHP" timestamp="1610539683938">
       <screen x="2256" y="0" width="1592" height="1072" />
     </state>
     <state x="2759" y="198" key="#PHP/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610539683938" />
-    <state x="236" y="172" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610558615791">
+    <state x="236" y="172" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611272479124">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2506" y="191" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610539686065" />
-    <state x="236" y="172" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1610558615791" />
+    <state x="236" y="172" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1504.963@0.0.1504.963" timestamp="1611272479124" />
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610628641264">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1610628641264" />
-    <state x="533" y="237" key="FileChooserDialogImpl" timestamp="1611190257511">
+    <state x="801" y="336" key="FileChooserDialogImpl" timestamp="1611271411543">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="533" y="237" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1611190257511" />
-    <state width="730" height="289" key="GridCell.Tab.0.bottom" timestamp="1611238475150">
+    <state x="801" y="336" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1611271411543" />
+    <state width="730" height="347" key="GridCell.Tab.0.bottom" timestamp="1611272752876">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611238475150" />
-    <state width="730" height="289" key="GridCell.Tab.0.center" timestamp="1611238475150">
+    <state width="730" height="347" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611272752876" />
+    <state width="730" height="347" key="GridCell.Tab.0.center" timestamp="1611272752875">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611238475150" />
-    <state width="730" height="289" key="GridCell.Tab.0.left" timestamp="1611238475135">
+    <state width="730" height="347" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611272752875" />
+    <state width="730" height="347" key="GridCell.Tab.0.left" timestamp="1611272752875">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611238475135" />
-    <state width="730" height="289" key="GridCell.Tab.0.right" timestamp="1611238475150">
+    <state width="730" height="347" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611272752875" />
+    <state width="730" height="347" key="GridCell.Tab.0.right" timestamp="1611272752876">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="730" height="289" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611238475150" />
+    <state width="730" height="347" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611272752876" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -544,11 +583,15 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611244879132">
+    <state x="254" y="127" key="SettingsEditor" timestamp="1611272456772">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611246431366">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611244879132" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611246431366" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -558,5 +601,14 @@
     </state>
     <state x="2695" y="229" width="712" height="755" key="search.everywhere.popup/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610714925323" />
     <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1610557325140" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="KRM-2" type="b2602c69:ProjectViewProjectNode" />
+        <item name="KRM-2" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
