@@ -8,7 +8,6 @@ $userData= new UserDataSet();
 //creates new UserDataSet class
 
 $view->loggedin = "";
-
 $view->resetError = null;
 
 $view->resetErrorTemplate = '<div class="text-block">'.$view->resetError.'</div>';
@@ -22,7 +21,7 @@ if (isset($_POST["forgot"]))
     $to = htmlentities($_POST['email']);
     $_SESSION['code1'] = rand ( 1000 , 9999 );
     $code = $_SESSION['code1'];
-    $message = '<p>You reset code is '.$code.'</p>';
+    $message = '<p>Your reset code is '.$code.'</p>';
     $subject = "KRM Password reset code";
     $headers= "From: KRM";
     mail($to,$subject,$message, $headers);

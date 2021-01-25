@@ -1,12 +1,16 @@
+<!--A header of the website which will be posted on each page of the website.-->
+
 <?php require('template/header.phtml') ?>
 
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <br>
 
+<!--  from here the main body starts which includes the form of application and will be shown to the user on the website.
+ it will also include some div class, sections, headers, paragraphs and some input types in order to create a form and
+  add sections which will be used to separate things from form to headings. An example of that is div class used for headings
+    and for paragraphs another div is used to add inputs types related to the form.
+-->
     <body class="body">
-
-
-
 
     <div class="form-container">
 
@@ -24,6 +28,7 @@
                     <input type="date" class="text-field w-input" maxlength="256" name="deadline" placeholder="Deadline (YYYY-MM-DD)" id="deadline" required="">
                     <input type="text" class="text-field w-input" maxlength="256" name="other-requirement" placeholder="Other Requirements (Optional)" id="other-requirement">
 
+<!--this is an if statement which will check the status of the user being logged in or not using php session.-->
                     <?php
 
                     if(isset($_SESSION["loggedin"]))
@@ -45,14 +50,16 @@
 
 
                     ?>
-
+<!-- button to submit the form.-->
                     <input type="submit" value="Submit" name="submit" data-wait="Please wait..." class="submit-button form-submit-btn w-button">
 
-
+<!-- another form which will be activated after user clicking on the submit button.-->
                 </form>
+<!-- if everything goes alright then this message will show-->
                 <div class="w-form-done">
                     <div>Thank you! Your submission has been received!</div>
                 </div>
+<!-- opposite message will be shown to the user if something missing or not right on the form.-->
                 <div class="w-form-fail">
                     <div>Oops! Something went wrong while submitting the form.</div>
                 </div>
@@ -61,5 +68,5 @@
     </div>
 
 
-
+<!-- a footer for a website taken from the footer.phtml page of the project-->
 <?php require('template/footer.phtml') ?>

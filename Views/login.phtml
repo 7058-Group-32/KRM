@@ -1,4 +1,11 @@
+<!--A header of the website which will be posted on each page of the website.-->
 <?php require('template/header.phtml') ?>
+
+<!-- a form has been used here for the login page where user will be able to log in and see his/her applications
+ and also for those users who do not consent to go through this process then they will also be able to
+ continue as guest.-->
+
+<!-- a form action within the php tag to secure the website so the user wont be able to see what is hidden in this  -->
 
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
     <br>
@@ -35,6 +42,10 @@
     </div>
   </div>-->
 
+
+<!-- an if statement where user will be able to log in but in this specific statement the message
+ will be shown to the user that the login was successful-->
+
 <?php
 
 if(isset($_SESSION["loggedin"]))
@@ -59,6 +70,7 @@ if(isset($_SESSION["loggedin"]))
     </div >';
 
     }
+// an else if statement where if user forget the password then it can rest it through clicking that button.
 
 else {
 
@@ -83,8 +95,6 @@ else {
                             </form>';
 
          echo '<div class="error-message" ><div class="text-block">'.$view->resetError.'</div></div>
-                            
-
                         </div >
                 </div >
             </div >
@@ -92,6 +102,8 @@ else {
     </div >';
 
     }
+
+// else statement here where user needs to enter the details of the login and a link to register if user haven't registered it yet
 
     else {
 
@@ -130,9 +142,7 @@ else {
     }
 }
 
-    ?>
+?>
 
-
-
-
+<!-- a footer for a website taken from the footer.phtml page of the project-->
 <?php require('template/footer.phtml') ?>

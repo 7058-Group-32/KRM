@@ -1,13 +1,15 @@
 <?php
 require_once('Models/UserDataSet.php');
+
 $view = new stdClass();
 $view->pageTitle = 'Homepage';
 
-//session_start();
+//session_start() and creates a new user userDataSet;
 $userData = new UserDataSet();
 
 $view->register="";
 
+// initialising the user data with actual variables of user's database.
 if(isset($_POST['register']))
 {
     $name = htmlentities($_POST['name']);
@@ -49,13 +51,8 @@ if(isset($_POST['register']))
         $view->register = "Oops! Your passwords do not match!";
     }
 
-
-
-
-
-
-
 }
 
+// accessing the register.phtml page.
 require_once('Views/register.phtml');
 ?>

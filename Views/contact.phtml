@@ -1,4 +1,9 @@
+<!--A header of the website which will be posted on each page of the website.-->
+
 <?php require('template/header.phtml') ?>
+
+<!-- this is a contact us page where user will be allowed to contact to the client using this form
+user will need to fill out he given field/text boxes in order to send the query.-->
 
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
@@ -17,6 +22,10 @@
                     </div>
                 </div>
             </div>
+
+<!-- here is the section which the user will see on the left hand side of the page with an image of location from map
+and telephone number along with the email address. -->
+
             <div class="div-block-30 mobile-view">
                 <div class="div-block-36">
                     <h1 class="heading-10">Contact Us</h1>
@@ -32,7 +41,9 @@
                             <div class="text-block-9">KRM BV<br>Marineweg 3a 2241 TX Wassenaar</div>
                         </div>
                     </div>
-                </div>
+
+<!-- here are the fields which user will see on the screen like name, email, message and so on. -->
+
                 <div class="div-block-31">
                     <h4 class="heading-9">Send us a Message</h4>
                     <div class="div-block-35">
@@ -64,5 +75,8 @@
     </div>
 </div>
 </form>
+
+
+<!-- a footer for a website taken from the footer.phtml page of the project-->
 
 <?php require('template/footer.phtml') ?>

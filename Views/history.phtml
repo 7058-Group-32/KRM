@@ -1,4 +1,8 @@
+<!--A header of the website which will be posted on each page of the website.-->
+
 <?php require('template/header.phtml') ?>
+
+<!--History page is where user can access all his applications which he submitted to the KRM.-->
 
 <body class="body-4">
 
@@ -7,6 +11,9 @@
 <div class="history-section">
     <div class="history-block">
         <h1 class="heading-3">Projects History</h1>
+
+<!-- an if statement to check if user has logged in and if yes then he will be able to see the application history.-->
+
         <?php
         if(isset($_SESSION["loggedin"]))
         {
@@ -14,11 +21,15 @@
             echo'<div class="text-block-2">You can see your history of projects here.</div>
                 </div>
                 <form>
+                
+<!-- a button to bring all the applications in alphabetical order-->
+
                     <input type="submit" name="order" value="Order A-Z" data-wait="Please wait..." class="submit-button-2 uf-mobile-view w-button">
                 </form>
                 <div class="card-wrapper mobile-view-card-wrapper">';
 
 
+//  foreach loop here is used to bring so everytime it executes it brings all this data from the application data table.
 
             foreach ($view->applicationData as $appData) {
                 echo '
@@ -56,7 +67,9 @@
                     
                     
                     
-                    
+<!-- Application will be shown to the user here using columns each column will have following data and it will be
+ collected from application data database-->    
+                  
             <div class="project-cards">
                 <div class="card-div">
                     <div class="div-block-20"><img src="images/folder_open_24px.svg" loading="lazy" alt=""></div>
@@ -116,9 +129,9 @@
                 $count = $count +1;
             }
 
-
-
         }
+
+// if user is not logged in then this will be shown to the user so he can log in and see his history.
 
         else{
             echo '
@@ -127,9 +140,7 @@
                 </div>';
         }
 
-
-
-        ?>
+?>
 
     </div>
 
@@ -189,5 +200,6 @@
     </div>
 </div>-->
 
+<!-- a footer for a website taken from the footer.phtml page of the project-->
 
 <?php require('template/footer.phtml') ?>

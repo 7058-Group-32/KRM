@@ -3,6 +3,7 @@
 $view = new stdClass();
 $view->pageTitle = 'Application';
 
+// accessing the database to entre the details of the user who submit the application
 require_once('Models/ApplicationDataSet.php');
 require_once('Models/UserDataSet.php');
 
@@ -30,11 +31,9 @@ if(!isset($_POST['address1'])){$_POST['address1'] = '';}
 if(!isset($_POST['address2'])){$_POST['address2'] = '';}
 if(!isset($_POST['postcode'])){$_POST['postcode'] = '';}
 
-
+// linking post variables to the application database which were defined above.
 $projectName = $_POST['project-name'];
-
 $deadline = $_POST['deadline'];
-
 $shortDescription = $_POST['short-description'];
 $otherReq = $_POST['other-requirement'];
 $minBudgetRange = $_POST['min-budget-range'];
@@ -42,6 +41,7 @@ $maxBudgetRange = $_POST['max-budget-range'];
 
 $view->message = null;
 
+// if user is logged in then brin the user id from the user data database along with given fields.
 if(isset($_SESSION["loggedin"]))
 {
     //$number = htmlentities($_POST['number']);
@@ -54,6 +54,7 @@ if(isset($_SESSION["loggedin"]))
     $number = htmlentities($_SESSION["pho"]);
 }
 
+// otherwise just get these fields.
 else {
     $id = 13;
     
@@ -136,4 +137,5 @@ else{
     //echo 'Not all fields are complete';
 }
 
+// accessing the form.phtml.
 require_once('Views/form.phtml');

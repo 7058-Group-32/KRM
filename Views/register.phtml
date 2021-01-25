@@ -1,5 +1,10 @@
+<!--A header of the website which will be posted on each page of the website.-->
+
 <?php require('template/header.phtml') ?>
 
+
+<!-- a form for the user to register on the KRM website in order to access his/her application later. -->
+<!--using php tag here because we will need this at the backend in order to deal with the customer request on server side.-->
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 
 <!--<body class="body-3">
@@ -37,6 +42,10 @@
   </div>
 </body>-->
 
+<!-- an if statement where it will allow the user to register and check if the user has already been registered
+    and send a successful message on the screen.-->
+
+<!-- in this specific statement user will get the successful message after submitting the register button. -->
 <?php
 
 if(isset($_SESSION["registered"]))
@@ -45,23 +54,24 @@ if(isset($_SESSION["registered"]))
     <div class="form-container" >
         <div class="section login-section" >
             <div class="login-divblock" >
-                <div class="left-divblock" ></div >
-                <div class="right-divblock" >
-                <h1 class="heading" > Welcome! Your have successfully registered </h1 >
-                    <div class="form-block login w-form" >
-                          <div class="hero-section-left-block">
-                            
+                <div class="left-divblock" >
+                </div >
+                    <div class="right-divblock" >
+                        <h1 class="heading" > Welcome! Your have successfully registered </h1 >
+                        <div class="form-block login w-form" >
+                          <div class="hero-section-left-block">                           
                             <a href="login.php" class="button w-button">Sign In Now</a>
                           </div>                  
-
-                        </div >
-                </div >
-            </div >
-        </div >
-    </div >';
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>';
 
 }
 
+/* an else statement where user will be asked to enter details and then it checks the details with our database to see if the
+ user is already exits and if does then it will give option to sign in. */
 else {
 
     echo '
@@ -102,9 +112,7 @@ else {
         </div>
     </div>';
 }
+?>
 
-    ?>
-
-
-
+<!-- a footer for a website taken from the footer.phtml page of the project-->
 <?php require('template/footer.phtml') ?>
