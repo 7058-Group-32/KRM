@@ -15,6 +15,7 @@ $view->resetErrorTemplate = '<div class="text-block">'.$view->resetError.'</div>
 unset($_SESSION["registered"]);
 unset($_SESSION["deleted"]);
 
+// an if statement to reset your password
 if (isset($_POST["forgot"]))
 {
     $_SESSION['email1'] = $_POST['email'];
@@ -27,6 +28,7 @@ if (isset($_POST["forgot"]))
     mail($to,$subject,$message, $headers);
 }
 
+// to change password
 if (isset($_POST["change"]))
 {
     $newPassword1 = htmlentities($_POST['passwordR1']);
