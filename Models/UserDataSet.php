@@ -13,6 +13,7 @@ class UserDataSet
         $this->_dbHandle = $this->_dbInstance->getdbConnection();
     }
 
+    // allows to add user in user database.
     public function addUser($name, $email, $number, $address)
     {
         $sqlQuery = "INSERT INTO Users(Name, Email, Phone, Address) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "')";
@@ -20,6 +21,8 @@ class UserDataSet
         $statement->execute();
     }
 
+
+    // to register user into the user database.
     public function register($name, $email, $number, $address, $password)
     {
         $sqlQuery = "INSERT INTO Users(Name, Email, Phone, Address, Password) VALUES ('" . $name . "','" . $email . "','" . $number . "','" . $address . "','" . $password . "')";
@@ -27,6 +30,7 @@ class UserDataSet
         $statement->execute();
     }
 
+    // brings up the password from the user database when email address is matched with the user.
     public function fetchPassword($email)
     {
         $sqlQuery = "SELECT Password FROM Users WHERE Email='" . $email . "'";
@@ -41,6 +45,8 @@ class UserDataSet
         }
 
     }
+
+    // brings up the user from the user database when email address is matched with the user.
 
     public function fetchId($email)
     {
@@ -60,6 +66,7 @@ class UserDataSet
         }
     }
 
+    // to check the email address or to validate it eith right user id.
     public function uniqueEmailCheck($email)
     {
         $sqlQuery = "SELECT Email FROM Users";
@@ -82,6 +89,7 @@ class UserDataSet
         return $found;
     }
 
+    // brings up all the information from the user database of the given fields when user enters its id
     public function fetchUser($userID)
     {
         $sqlQuery = 'SELECT Name, Email, Phone, Address FROM Users WHERE UserID = '.$userID;
@@ -100,7 +108,7 @@ class UserDataSet
 
     }
     
-    
+    // to get the name of the customer using user id from the user database.
     public function getCustomerName($userID)
     {
         $sqlQuery = 'SELECT Name FROM Users WHERE UserID = '.$userID;
@@ -115,6 +123,7 @@ class UserDataSet
         }
     }
 
+    // to delete the user from the database.
     public function deleteUser($userID)
     {
         $sqlQuery = 'DELETE FROM Users WHERE UserID = '.$userID;
@@ -122,6 +131,7 @@ class UserDataSet
         $statement->execute();
     }
 
+    // allows you to change the name .
     public function changeName($id, $newName)
     {
         $sqlQuery = "UPDATE Users SET Name = '" . $newName . "' WHERE UserID = ".$id ;
@@ -129,6 +139,7 @@ class UserDataSet
         $statement->execute();
     }
 
+    // to change the email address.
     public function changeEmail($id, $newEmail)
     {
         $sqlQuery = "UPDATE Users SET Email = '" . $newEmail . "' WHERE UserID = ".$id ;
@@ -136,6 +147,7 @@ class UserDataSet
         $statement->execute();
     }
 
+    // to update the number
     public function changeNumber($id, $newNumber)
     {
         $sqlQuery = "UPDATE Users SET Phone = '" . $newNumber . "' WHERE UserID = ".$id ;
@@ -143,6 +155,7 @@ class UserDataSet
         $statement->execute();
     }
 
+    // to change address.
     public function changeAddress($id, $newAddress)
     {
         $sqlQuery = "UPDATE Users SET Address = '" . $newAddress . "' WHERE UserID = ".$id ;
@@ -150,6 +163,7 @@ class UserDataSet
         $statement->execute();
     }
 
+    // allows the user to change its password.
     public function changePassword($id, $newPassword)
     {
         $sqlQuery = "UPDATE Users SET Password = '" . $newPassword . "' WHERE UserID = ".$id ;

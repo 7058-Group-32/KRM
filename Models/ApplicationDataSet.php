@@ -6,6 +6,7 @@ class ApplicationDataSet
 
     protected $_dbHandle, $_dbInstance;
 
+    // constructor of a class ApplicationDataSet
     public function __construct()
     {
         $this->_dbInstance = Database::getInstance();
@@ -34,6 +35,7 @@ class ApplicationDataSet
         $statement->execute();
     }
 
+    //
     public function fetchUserApplications($userId)
     {
         $sqlQuery = 'SELECT * FROM Application WHERE UserID=' . $userId;
@@ -49,6 +51,7 @@ class ApplicationDataSet
         return $dataSet;
     }
 
+    // sort the applications by project name from the application database.
     public function fetchSortedUserApplications($userId)
     {
         $sqlQuery = 'SELECT * FROM Application WHERE UserID=' . $userId . ' ORDER BY ProjectName';
