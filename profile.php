@@ -12,6 +12,7 @@ $view->profileErrorTemplate = '<div class="text-block">'.$view->profileError.'</
 $userData = new UserDataSet();
 
 $id = $_SESSION["userid"];
+//echo $id;
 $view->name = $_SESSION["na"];
 $view->email = $_SESSION["em"];
 $view->phoneNo = $_SESSION["pho"];
