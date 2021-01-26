@@ -59,6 +59,6 @@ if(isset($_POST['submit'])){
     
 }
 
-
+// accessing the contact.phtml once.
 require_once('Views/contact.phtml');
 

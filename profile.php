@@ -9,6 +9,7 @@ $view->profileError = null;
 
 $view->profileErrorTemplate = '<div class="text-block">'.$view->profileError.'</div>';
 
+//creates new UserDataSet class
 $userData = new UserDataSet();
 
 $id = $_SESSION["userid"];
@@ -18,6 +19,7 @@ $view->email = $_SESSION["em"];
 $view->phoneNo = $_SESSION["pho"];
 $view->address = $_SESSION["add"];
 
+// if user click delete then it will remove the user from the database.
 if(isset($_POST['delete']))
 {
     $userData->deleteUser($id);
@@ -27,6 +29,7 @@ if(isset($_POST['delete']))
     session_destroy();
 }
 
+// this saves the user's details which he/she changed
 if(isset($_POST['save']))
 {
 
@@ -40,6 +43,7 @@ if(isset($_POST['save']))
     $newPassword1 = htmlentities($_POST['userInfo-pass1']);
     $newPassword2 = htmlentities($_POST['userInfo-pass2']);
 
+    // checks the name field
     if ($newName != null)
     {
         $userData->changeName($id, $newName);
@@ -48,6 +52,7 @@ if(isset($_POST['save']))
         $view->profileError = "Thank You! Your profile has been edited!";
     }
 
+    // checks the email field
     if ($newEmail != null)
     {
         $userData->changeEmail($id, $newEmail);
@@ -56,6 +61,7 @@ if(isset($_POST['save']))
         $view->profileError = "Thank You! Your profile has been edited!";
     }
 
+    // checks the number field
     if ($newNumber != null)
     {
         $userData->changeNumber($id, $newNumber);
@@ -64,6 +70,7 @@ if(isset($_POST['save']))
         $view->profileError = "Thank You! Your profile has been edited!";
     }
 
+    // checks the address fields along with the post
     if ($newAddress1 != null || $newAddress2 != null || $newPostcode != null)
     {
         if ($newAddress1 != null && $newAddress2 != null && $newPostcode != null)
@@ -80,6 +87,7 @@ if(isset($_POST['save']))
         }
     }
 
+    // checks the password fields, then verify the account, then validates the password
     if ($oldPassword != null || $newPassword1 != null || $newPassword2 != null)
     {
 
@@ -133,6 +141,6 @@ if(isset($_POST['save']))
 }
 
 
-
+// accessing profile.phtml once.
 require_once('Views/profile.phtml');
 ?>

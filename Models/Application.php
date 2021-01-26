@@ -1,4 +1,5 @@
 <?php
+
 class Application
 {
 
@@ -18,7 +19,8 @@ class Application
         $this->_userID = $dbRow['UserID'];
 
     }
-    
+
+    // get functions of a class Application to retrieve the data of given fields from the database.
     public function getApplicationID(){
         return $this->_appID;
     }
