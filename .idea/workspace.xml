@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
+      <change afterPath="$PROJECT_DIR$/Views/forgot.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forgot.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/contact.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/contact.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +41,9 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="phtml" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1n0q63P2O9ErP99Vsw7S1Ud5yZw" />
@@ -142,14 +147,7 @@
       <workItem from="1611339024344" duration="647000" />
       <workItem from="1611428170589" duration="1154000" />
       <workItem from="1611585758205" duration="438000" />
-      <workItem from="1611655424389" duration="1985000" />
-    </task>
-    <task id="LOCAL-00056" summary="Added 'fetch user applications' method to ApplicationDataSet.php to use on the history page.">
-      <created>1610747028236</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1610747028236</updated>
+      <workItem from="1611655424389" duration="2496000" />
     </task>
     <task id="LOCAL-00057" summary="Making use of fetchUserApplications method in history.php">
       <created>1610747492128</created>
@@ -487,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611657295426</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Fixing bug where user's account would not delete if they had some applications submitted">
+      <created>1611657458941</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1611657458941</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -592,19 +597,19 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1611655588816" />
-    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1611083011587">
+    <state x="589" y="405" key="NewPhpFileDialog" timestamp="1611657525971">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611083011587" />
+    <state x="589" y="405" key="NewPhpFileDialog/0.0.1504.963@0.0.1504.963" timestamp="1611657525971" />
     <state x="254" y="127" key="SettingsEditor" timestamp="1611272456772">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611657301467">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611657460358">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611657301467" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611657460358" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
