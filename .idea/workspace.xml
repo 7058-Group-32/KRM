@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change afterPath="$PROJECT_DIR$/Views/forgot.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forgot.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/login.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +145,8 @@
       <workItem from="1611339024344" duration="647000" />
       <workItem from="1611428170589" duration="1154000" />
       <workItem from="1611585758205" duration="438000" />
-      <workItem from="1611655424389" duration="2496000" />
-    </task>
-    <task id="LOCAL-00057" summary="Making use of fetchUserApplications method in history.php">
-      <created>1610747492128</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1610747492128</updated>
+      <workItem from="1611655424389" duration="2549000" />
+      <workItem from="1611678133722" duration="36000" />
     </task>
     <task id="LOCAL-00058" summary="Adding the table to take user from the Application database and put into a good format on history.phtml">
       <created>1610748188166</created>
@@ -492,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611657458941</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Bailed on forgot password option">
+      <created>1611657981385</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1611657981385</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,7 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added new svg image files" />
     <MESSAGE value="Connect to js file in header" />
     <MESSAGE value="Changed ajax js from https to http so that is works on the poseidon web server" />
     <MESSAGE value="added mobile view div to index.phtml" />
@@ -537,7 +535,8 @@
     <MESSAGE value="Fixed bug on userDataSet.php which stopped users from being able to delete their accounts" />
     <MESSAGE value="Fixing errors" />
     <MESSAGE value="Fixing bug where user's account would not delete if they had some applications submitted" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing bug where user's account would not delete if they had some applications submitted" />
+    <MESSAGE value="Bailed on forgot password option" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bailed on forgot password option" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -565,26 +564,26 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="801" y="336" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1611428732890" />
-    <state width="1461" height="347" key="GridCell.Tab.0.bottom" timestamp="1611335661085">
+    <state width="1461" height="251" key="GridCell.Tab.0.bottom" timestamp="1611658002156">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.bottom/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="347" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611335661085" />
-    <state width="1461" height="347" key="GridCell.Tab.0.center" timestamp="1611335661084">
+    <state width="1461" height="251" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1611658002156" />
+    <state width="1461" height="251" key="GridCell.Tab.0.center" timestamp="1611658002156">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.center/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="347" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611335661084" />
-    <state width="1461" height="347" key="GridCell.Tab.0.left" timestamp="1611335661084">
+    <state width="1461" height="251" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1611658002156" />
+    <state width="1461" height="251" key="GridCell.Tab.0.left" timestamp="1611658002156">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.left/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="347" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611335661084" />
-    <state width="1461" height="347" key="GridCell.Tab.0.right" timestamp="1611335661084">
+    <state width="1461" height="251" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1611658002156" />
+    <state width="1461" height="251" key="GridCell.Tab.0.right" timestamp="1611658002156">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state width="1549" height="302" key="GridCell.Tab.0.right/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610715988636" />
-    <state width="1461" height="347" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611335661084" />
+    <state width="1461" height="251" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1611658002156" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1610558620388">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -605,11 +604,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611657460358">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611657985148">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611657460358" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611657985148" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

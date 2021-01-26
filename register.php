@@ -7,7 +7,7 @@ $view->pageTitle = 'Homepage';
 //session_start() and creates a new user userDataSet;
 $userData = new UserDataSet();
 
-$view->register="";
+$view->register="Password should be at least 8 characters in length and should include at least one upper case letter, one number, and one special character.";
 
 // initialising the user data with actual variables of user's database.
 if(isset($_POST['register']))
