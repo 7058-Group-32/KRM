@@ -21,9 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/contact.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/contact.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/person_outline_24px.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,13 +145,7 @@
       <workItem from="1611339024344" duration="647000" />
       <workItem from="1611428170589" duration="1154000" />
       <workItem from="1611585758205" duration="438000" />
-    </task>
-    <task id="LOCAL-00051" summary="Fetch user">
-      <created>1610719506499</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1610719506499</updated>
+      <workItem from="1611655424389" duration="916000" />
     </task>
     <task id="LOCAL-00052" summary="Starting to edit history page">
       <created>1610734468144</created>
@@ -488,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611333747356</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Changed index view">
+      <created>1611655571128</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1611655571129</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added new css, js and image files" />
     <MESSAGE value="Added new history page, added users name in navbar. Added redirect to index page when user logs in" />
     <MESSAGE value="Changed history and form page in meeting" />
     <MESSAGE value="Fixed submission and error message on form.phtml" />
@@ -533,7 +534,8 @@
     <MESSAGE value="changed layout of login.phtml" />
     <MESSAGE value="reset page" />
     <MESSAGE value="Trying to fix password reset." />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix password reset." />
+    <MESSAGE value="Changed index view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed index view" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -553,6 +555,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="483" y="229" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1504.963@0.0.1504.963" timestamp="1610628641264" />
+    <state x="144" y="79" key="DiffContextDialog" timestamp="1611655549495">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="144" y="79" key="DiffContextDialog/0.0.1504.963@0.0.1504.963" timestamp="1611655549495" />
     <state x="801" y="336" key="FileChooserDialogImpl" timestamp="1611428732890">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -585,10 +591,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="144" y="79" key="MergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556232130" />
-    <state x="392" y="243" key="MultipleFileMergeDialog" timestamp="1610556237078">
+    <state x="392" y="243" key="MultipleFileMergeDialog" timestamp="1611655588816">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1610556237078" />
+    <state x="392" y="243" key="MultipleFileMergeDialog/0.0.1504.963@0.0.1504.963" timestamp="1611655588816" />
     <state x="589" y="405" key="NewPhpFileDialog" timestamp="1611083011587">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -597,11 +603,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611333751096">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611655624417">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611333751096" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611655624417" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>

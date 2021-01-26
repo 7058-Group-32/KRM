@@ -126,6 +126,7 @@ class UserDataSet
     // to delete the user from the database.
     public function deleteUser($userID)
     {
+        $sqlQuery1 = 'UPDATE Users SET UserID=13 WHERE UserID='.$userID;
         $sqlQuery = 'DELETE FROM Users WHERE UserID = '.$userID;
         $statement = $this->_dbHandle->prepare($sqlQuery);
         $statement->execute();

@@ -1,6 +1,6 @@
+<?php require('template/header.phtml') ?>
 <!--A header of the website which will be posted on each page of the website.-->
 
-<?php require('template/header.phtml') ?>
 
 <!-- this is a contact us page where user will be allowed to contact to the client using this form
 user will need to fill out he given field/text boxes in order to send the query.-->
@@ -14,7 +14,8 @@ user will need to fill out he given field/text boxes in order to send the query.
                 <div class="div-block-33">
                     <h1 class="heading-7">Contact Us</h1>
                     <div class="text-block-7">Contact us or submit your enquiries here and we will get back to you as soon as possible.<br>‍</div>
-                    <div class="div-block-34"><img src="images/perm_phone_msg_24px.svg" loading="lazy" width="18" alt="" class="image-6">
+                    <div class="div-block-34">
+                        <img src="images/perm_phone_msg_24px.svg" loading="lazy" width="18" alt="" class="image-6">
                         <a href="tel:0702060100" class="link-5">070-2060100</a>
                     </div>
                     <div><img src="images/alternate_email_24px.svg" loading="lazy" width="18" alt="" class="image-6">
@@ -55,8 +56,9 @@ and telephone number along with the email address. -->
                                     <input type="email" class="text-field login-texfield contact w-input" maxlength="256" name="contact-email" data-name="contact-email" placeholder="Email*" id="contact-email" required="">
                                     <input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-subject" data-name="contact-subject" placeholder="Subject*" id="contact-subject" required="">
                                     <input type="text" class="text-field login-texfield contact w-input" maxlength="256" name="contact-topic" data-name="contact-topic" placeholder="Topic*" id="contact-topic" required="">
-                                    <textarea placeholder="Message*" maxlength="5000" id="contact-message" name="contact-message" data-name="contact-message" class="textarea w-input"></textarea></div>
-                                <input type="submit" value="Submit" name="submit" data-wait="Please wait..." class="submit-button ghost-btn contact-submit w-button">
+                                    <textarea placeholder="Message*" maxlength="5000" id="contact-message" name="contact-message" data-name="contact-message" class="textarea w-input"></textarea>
+                                </div>
+                                    <input type="submit" value="Submit" name="submit" data-wait="Please wait..." class="submit-button ghost-btn contact-submit w-button">
                                 <div>
                                     <?php echo '<div class="error-message" id="form-message">'.$view->message.'</div>';?>
                                 </div>
