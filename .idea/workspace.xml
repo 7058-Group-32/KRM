@@ -20,9 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="82da89ef-121e-48e5-98c0-9c6bf6cdeac7" name="Default Changelist" comment="Login and logout page complete!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/contact.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/contact.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/UserDataSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Models/UserDataSet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,14 +141,7 @@
       <workItem from="1611339024344" duration="647000" />
       <workItem from="1611428170589" duration="1154000" />
       <workItem from="1611585758205" duration="438000" />
-      <workItem from="1611655424389" duration="1281000" />
-    </task>
-    <task id="LOCAL-00053" summary="Starting to edit history page">
-      <created>1610735290597</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1610735290597</updated>
+      <workItem from="1611655424389" duration="1542000" />
     </task>
     <task id="LOCAL-00054" summary="Editing history page. Added message to tell user to login to view their history page">
       <created>1610738088050</created>
@@ -488,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611656415199</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Fixing errors">
+      <created>1611656747909</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1611656747909</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +506,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed submission and error message on form.phtml" />
     <MESSAGE value="Fixed glitch on history.phtml" />
     <MESSAGE value="Added new svg image files" />
     <MESSAGE value="Connect to js file in header" />
@@ -533,7 +530,8 @@
     <MESSAGE value="Changed index view" />
     <MESSAGE value="Fixed bug on userDataSet.php which stopped users from being able to delete their websites" />
     <MESSAGE value="Fixed bug on userDataSet.php which stopped users from being able to delete their accounts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed bug on userDataSet.php which stopped users from being able to delete their accounts" />
+    <MESSAGE value="Fixing errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing errors" />
   </component>
   <component name="WindowStateProjectService">
     <state x="333" y="137" key="#CLI_Interpreters" timestamp="1611270942372">
@@ -601,11 +599,11 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="254" y="127" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1611272456772" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611656416631">
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2" timestamp="1611656758536">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="2644" y="269" key="Vcs.Push.Dialog.v2/0.0.1504.963/2256.0.1592.1072@2256.0.1592.1072" timestamp="1610979989025" />
-    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611656416631" />
+    <state x="367" y="242" key="Vcs.Push.Dialog.v2/0.0.1504.963@0.0.1504.963" timestamp="1611656758536" />
     <state x="409" y="222" key="run.anything.popup" timestamp="1611088973185">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
